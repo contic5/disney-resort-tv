@@ -1,4 +1,13 @@
-.day_info
+
+main
 {
-  max-width: 100px !important;
+  background-color: rgb(169, 169, 240);
+  padding: 10px;
+  margin: auto;
+  max-width: 800px;
+  min-height: 100vh;
+}
+body
+{
+  background-color: rgb(138, 138, 231);
 }

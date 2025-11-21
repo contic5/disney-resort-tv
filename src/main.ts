@@ -30,11 +30,12 @@ function setup_table(weather_data:any)
   for(let time_period=0;time_period<2;time_period++)
   {
     tr=document.createElement("tr");
+    let td:HTMLTableCellElement=document.createElement("td");
     for(let day=0;day<7;day++)
     {
       let index=2*day+time_period;
       let period=weather_data["properties"]["periods"][index];
-      let td:HTMLTableCellElement=document.createElement("td");
+      td=document.createElement("td");
       td.classList.add("day_info");
       td.innerHTML=`${period["temperature"]}${period["temperatureUnit"]}<br>${period["shortForecast"]}`;
 
@@ -49,7 +50,7 @@ async function main()
   console.log(weather_data);
   setup_table(weather_data);
 
-  let welcome_heading=document.getElementById("welcome_header") as HTMLHeadingElement;
+  let welcome_heading=document.getElementById("welcome_heading") as HTMLHeadingElement;
   welcome_heading.innerHTML=`Welcome ${family_name} Family`;
 }
 
