@@ -11,3 +11,17 @@ body
 {
   background-color: rgb(138, 138, 231);
 }
+.grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#current_info
+{
+  border: black solid 5px;
+  column-gap: 20px;
+}
+#park_nighttime_today
+{
+  column-span: 2;
+}

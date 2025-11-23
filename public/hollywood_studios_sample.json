@@ -1,0 +1,2142 @@
+{
+  "id": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+  "name": "Disney's Hollywood Studios",
+  "entityType": "PARK",
+  "timezone": "America/New_York",
+  "liveData": [
+    {
+      "id": "8890a911-f69e-462a-8731-8be2086c4b08",
+      "name": "Jingle Bell, Jingle BAM! at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412017741;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Special Ticketed Event",
+          "endTime": "2025-11-22T22:00:00-05:00",
+          "startTime": "2025-11-22T22:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-22T17:36:56Z"
+    },
+    {
+      "id": "79860074-658f-49bc-8c1b-624af8b4718e",
+      "name": "Meet Edna Mode at the Edna Mode Experience",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19205017;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:00:56Z"
+    },
+    {
+      "id": "375197ac-27ac-41f7-bd93-f4e9b9fc4d5d",
+      "name": "Beauty and the Beast – Live on Stage",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "80010848;entityType=Entertainment",
+      "queue": {
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:00:00-05:00",
+          "startTime": "2025-11-23T11:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:00:00-05:00",
+          "startTime": "2025-11-23T13:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:00:00-05:00",
+          "startTime": "2025-11-23T14:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:00:00-05:00",
+          "startTime": "2025-11-23T16:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:00:00-05:00",
+          "startTime": "2025-11-23T17:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T21:31:44Z"
+    },
+    {
+      "id": "9211adc9-b296-4667-8e97-b40cf76108e4",
+      "name": "Vacation Fun - An Original Animated Short with Mickey & Minnie",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19497952;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [],
+      "lastUpdated": "2025-11-23T08:01:46Z"
+    },
+    {
+      "id": "9a9f45e6-a990-404e-87f2-a57175f0746b",
+      "name": "Meet Olaf at Celebrity Spotlight — Disney® Visa® Cardmember Exclusive",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412451116;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "69cb35f2-c58e-4b44-88c9-ea0cc720e075",
+      "name": "Disney Villains: Unfairly Ever After",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412328859;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:30:00-05:00",
+          "startTime": "2025-11-23T10:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:10:00-05:00",
+          "startTime": "2025-11-23T11:10:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:50:00-05:00",
+          "startTime": "2025-11-23T11:50:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:30:00-05:00",
+          "startTime": "2025-11-23T12:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:10:00-05:00",
+          "startTime": "2025-11-23T13:10:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:50:00-05:00",
+          "startTime": "2025-11-23T13:50:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:30:00-05:00",
+          "startTime": "2025-11-23T14:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:10:00-05:00",
+          "startTime": "2025-11-23T15:10:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:50:00-05:00",
+          "startTime": "2025-11-23T15:50:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:30:00-05:00",
+          "startTime": "2025-11-23T16:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:10:00-05:00",
+          "startTime": "2025-11-23T17:10:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:50:00-05:00",
+          "startTime": "2025-11-23T17:50:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T18:30:00-05:00",
+          "startTime": "2025-11-23T18:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T19:10:00-05:00",
+          "startTime": "2025-11-23T19:10:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T19:50:00-05:00",
+          "startTime": "2025-11-23T19:50:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "b1ed574f-40f2-4132-a1ee-893a276633c8",
+      "name": "Wonderful World of Animation",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19260580;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T21:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:48Z"
+    },
+    {
+      "id": "ae7db7da-a3d9-443b-b4a6-d3c4a2b66121",
+      "name": "Meet Stitch at Celebrity Spotlight at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412241905;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-23T05:16:44Z"
+    },
+    {
+      "id": "e516f303-e82d-4fd3-8fbf-8e6ab624cf89",
+      "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "80010182;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 65
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:11:45Z"
+    },
+    {
+      "id": "1a2e70d9-50d5-4140-b69e-799e950f7d18",
+      "name": "Star Wars: Rise of the Resistance",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19263736;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        },
+        "PAID_RETURN_TIME": {
+          "price": {
+            "amount": 2500,
+            "currency": "USD",
+            "formatted": "$25.00"
+          },
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 115,
+          "percentage": 87
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 95,
+          "percentage": 72
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 105,
+          "percentage": 80
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 110,
+          "percentage": 83
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 95,
+          "percentage": 72
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 95,
+          "percentage": 72
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 95,
+          "percentage": 72
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 90,
+          "percentage": 68
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 61
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 64
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 57
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 22
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:09:51Z"
+    },
+    {
+      "id": "f13be6e2-40fd-46d2-895f-eef97bf65d3b",
+      "name": "Disney Holidays in Hollywood at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412017439;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-23T05:11:46Z"
+    },
+    {
+      "id": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "name": "Disney's Hollywood Studios",
+      "entityType": "PARK",
+      "parkId": null,
+      "externalId": "80007998;entityType=theme-park",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2024-05-14T13:36:04Z"
+    },
+    {
+      "id": "eb325677-d32a-41ec-b2c9-e1ab91bade02",
+      "name": "Meet Pixar Pals at Pixar Plaza",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "411927635;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2024-09-30T17:00:00-04:00",
+          "startTime": "2024-09-30T09:00:00-04:00"
+        }
+      ],
+      "lastUpdated": "2024-09-30T04:29:37Z"
+    },
+    {
+      "id": "42328c39-76ab-4f03-b862-4206c8d9f7bb",
+      "name": "Fantasmic!",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "80010887;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T20:00:00-05:00",
+          "startTime": "2025-11-23T20:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T21:30:00-05:00",
+          "startTime": "2025-11-23T21:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "90ab2c64-e05c-4783-bde5-fddf41f78402",
+      "name": "Disney Movie Magic",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18693119;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-09-30T20:40:00-04:00",
+          "startTime": "2025-09-30T20:40:00-04:00"
+        }
+      ],
+      "lastUpdated": "2025-09-30T04:06:27Z"
+    },
+    {
+      "id": "27f9fc86-2341-4bf4-8cbf-67fc16a841f1",
+      "name": "Meet Olaf at Celebrity Spotlight",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18368385;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 20
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T18:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:11:45Z"
+    },
+    {
+      "id": "c600282c-227b-4ffc-b1ee-b5987609ee4f",
+      "name": "50's Prime Time Café",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "90001216;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 60
+        }
+      },
+      "status": "OPERATING",
+      "diningAvailability": [
+        {
+          "waitTime": 60,
+          "partySize": 1
+        },
+        {
+          "waitTime": 60,
+          "partySize": 2
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:12:23Z"
+    },
+    {
+      "id": "6f6998e8-a629-412c-b964-2cb06af8e26b",
+      "name": "The Twilight Zone Tower of Terror™",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "80010218;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 35
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-23T20:15:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 62
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 70,
+          "percentage": 58
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 62
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:15:51Z"
+    },
+    {
+      "id": "71da34dd-a27e-4db5-aef3-f880ef939f98",
+      "name": "Pixar Disco at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412250286;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Special Ticketed Event",
+          "endTime": "2025-11-22T21:30:00-05:00",
+          "startTime": "2025-11-22T19:30:00-05:00"
+        },
+        {
+          "type": "Special Ticketed Event",
+          "endTime": "2025-11-23T00:30:00-05:00",
+          "startTime": "2025-11-22T22:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-22T17:36:56Z"
+    },
+    {
+      "id": "d9dbd260-9e34-406d-abb7-19f9d733e577",
+      "name": "Sci-Fi Dine-In Theater Restaurant",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "90002114;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-22T17:36:48Z"
+    },
+    {
+      "id": "847ab726-3672-42fd-a232-df7a3fb2baf7",
+      "name": "The Record Setters",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412496812;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:00:00-05:00",
+          "startTime": "2025-11-23T10:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:00:00-05:00",
+          "startTime": "2025-11-23T11:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T12:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:30:00-05:00",
+          "startTime": "2025-11-23T13:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:30:00-05:00",
+          "startTime": "2025-11-23T14:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:30:00-05:00",
+          "startTime": "2025-11-23T15:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "d07a17c2-7720-4db7-b12a-a68ecdb51108",
+      "name": "Hollygroove Swingin’",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412496861;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:30:00-05:00",
+          "startTime": "2025-11-23T10:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:30:00-05:00",
+          "startTime": "2025-11-23T11:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:30:00-05:00",
+          "startTime": "2025-11-23T12:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:00:00-05:00",
+          "startTime": "2025-11-23T14:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:00:00-05:00",
+          "startTime": "2025-11-23T15:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:00:00-05:00",
+          "startTime": "2025-11-23T16:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "7357772c-6b11-4a8d-af97-05a1bb45f001",
+      "name": "Indiana Jones™ Epic Stunt Spectacular!",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "136;entityType=Entertainment",
+      "queue": {
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:45:00-05:00",
+          "startTime": "2025-11-23T10:45:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T12:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:15:00-05:00",
+          "startTime": "2025-11-23T13:15:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:15:00-05:00",
+          "startTime": "2025-11-23T15:15:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:30:00-05:00",
+          "startTime": "2025-11-23T16:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T21:01:46Z"
+    },
+    {
+      "id": "bc2c2ffe-3cf0-4e75-a408-bf5e86515c4c",
+      "name": "Green Army Drum Corps",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19025720;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T10:00:00-05:00",
+          "startTime": "2025-11-23T10:00:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T11:00:00-05:00",
+          "startTime": "2025-11-23T11:00:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T12:00:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T14:00:00-05:00",
+          "startTime": "2025-11-23T14:00:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T15:00:00-05:00",
+          "startTime": "2025-11-23T15:00:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T16:00:00-05:00",
+          "startTime": "2025-11-23T16:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:45Z"
+    },
+    {
+      "id": "02861a9b-584d-47d5-a8d0-98e05c3b5dce",
+      "name": "Meet Disney Stars at Red Carpet Dreams",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18368386;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 35
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T20:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:00:56Z"
+    },
+    {
+      "id": "d56506e2-6ad3-443a-8065-fea37987248d",
+      "name": "Alien Swirling Saucers",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18904172;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 35
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:09:51Z"
+    },
+    {
+      "id": "d2af9650-9f91-45ef-98be-de44b4b44c32",
+      "name": "The Hollywood Brown Derby Lounge",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "17571157;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 35
+        }
+      },
+      "status": "OPERATING",
+      "diningAvailability": [
+        {
+          "waitTime": 35,
+          "partySize": 1
+        },
+        {
+          "waitTime": 35,
+          "partySize": 2
+        },
+        {
+          "waitTime": 35,
+          "partySize": 3
+        },
+        {
+          "waitTime": 35,
+          "partySize": 4
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:15:53Z"
+    },
+    {
+      "id": "c113b1cf-7b6d-416a-8e21-bf8f387ecd77",
+      "name": "Meet Ariel at Walt Disney Presents",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "411926516;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-08T05:10:04Z"
+    },
+    {
+      "id": "0e7426d1-7406-4e7c-9da6-ac6c126211c6",
+      "name": "Meet Joy at Pixar Plaza",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "411908664;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T09:30:00-05:00",
+          "startTime": "2025-11-23T09:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:00:00-05:00",
+          "startTime": "2025-11-23T10:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:30:00-05:00",
+          "startTime": "2025-11-23T10:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:00:00-05:00",
+          "startTime": "2025-11-23T11:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:30:00-05:00",
+          "startTime": "2025-11-23T11:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T12:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:30:00-05:00",
+          "startTime": "2025-11-23T12:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:00:00-05:00",
+          "startTime": "2025-11-23T14:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:30:00-05:00",
+          "startTime": "2025-11-23T14:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:00:00-05:00",
+          "startTime": "2025-11-23T15:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:30:00-05:00",
+          "startTime": "2025-11-23T15:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:00:00-05:00",
+          "startTime": "2025-11-23T16:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:46Z"
+    },
+    {
+      "id": "d7669edc-eaa1-4af2-bbb5-6e98df564166",
+      "name": "Walt Disney Presents",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18770880;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T20:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T14:00:51Z"
+    },
+    {
+      "id": "6e118e37-5002-408d-9d88-0b5d9cdb5d14",
+      "name": "Mickey & Minnie's Runaway Railway",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19259335;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 50
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 20
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:15:53Z"
+    },
+    {
+      "id": "3b290419-8ca2-44bc-a710-a6c83fca76ec",
+      "name": "Star Tours – The Adventures Continue",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "80010193;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-23T17:15:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-23T09:00:00-05:00",
+          "startTime": "2025-11-23T08:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-23T21:00:00-05:00",
+          "startTime": "2025-11-23T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:11:44Z"
+    },
+    {
+      "id": "078e80f0-8569-45c9-a324-a767ef46ea98",
+      "name": "Glisten! at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412239078;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-23T05:11:47Z"
+    },
+    {
+      "id": "f020b5e3-d26d-4339-83f9-0f1f858a0e40",
+      "name": "Oga's Cantina at the Walt Disney World Resort",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19267226;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-23T22:01:45Z"
+    },
+    {
+      "id": "50b2b97f-415d-447f-9198-cebf57755858",
+      "name": "What’s This? Tim Burton’s The Nightmare Before Christmas Sing-Along at Disney Jollywood Nights",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412017440;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-23T05:11:46Z"
+    },
+    {
+      "id": "343de9f4-e100-4a52-9285-0fcc3a486603",
+      "name": "First Order Searches for the Resistance",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "411979428;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:30:00-05:00",
+          "startTime": "2025-11-23T10:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:30:00-05:00",
+          "startTime": "2025-11-23T11:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:30:00-05:00",
+          "startTime": "2025-11-23T12:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:30:00-05:00",
+          "startTime": "2025-11-23T13:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:30:00-05:00",
+          "startTime": "2025-11-23T14:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:30:00-05:00",
+          "startTime": "2025-11-23T16:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:30:00-05:00",
+          "startTime": "2025-11-23T17:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T18:30:00-05:00",
+          "startTime": "2025-11-23T18:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T05:11:46Z"
+    },
+    {
+      "id": "7a73a6df-4d33-4648-b3e3-57985f84f0ae",
+      "name": "Roundup Rodeo BBQ",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19553134;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-23T21:00:05Z"
+    },
+    {
+      "id": "917783a5-da9c-4c55-ac51-0ac1f8253131",
+      "name": "The Hollywood Brown Derby",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "90002245;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-23T16:18:05Z"
+    },
+    {
+      "id": "7bf05bdc-8279-427b-8a6d-50fc62ef31cb",
+      "name": "Hollywood & Vine",
+      "entityType": "RESTAURANT",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "90001744;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-23T22:11:45Z"
+    },
+    {
+      "id": "399aa0a1-98e2-4d2b-b297-2b451e9665e1",
+      "name": "Slinky Dog Dash",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "18904138;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 85
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 59
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 67
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 63
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 63
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 63
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 63
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 59
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 59
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 63
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 59
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 39
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:16:12Z"
+    },
+    {
+      "id": "34c4916b-989b-4ff1-a7e3-a6a846a3484f",
+      "name": "Millennium Falcon: Smugglers Run",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "19263735;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 30
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:16:12Z"
+    },
+    {
+      "id": "20b5daa8-e1ea-436f-830c-2d7d18d929b5",
+      "name": "Toy Story Mania!",
+      "entityType": "ATTRACTION",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "209857;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 90
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-23T09:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-11-23T10:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
+        },
+        {
+          "time": "2025-11-23T11:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T12:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T13:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T14:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T15:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T16:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-11-23T17:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-11-23T18:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-11-23T19:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-11-23T20:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 16
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:16:10Z"
+    },
+    {
+      "id": "d91a0e9a-8652-4036-822f-e7b12b381273",
+      "name": "For the First Time in Forever: A Frozen Sing-Along Celebration",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "17842841;entityType=Entertainment",
+      "queue": {
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-23T18:05:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T09:30:00-05:00",
+          "startTime": "2025-11-23T09:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:30:00-05:00",
+          "startTime": "2025-11-23T10:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:30:00-05:00",
+          "startTime": "2025-11-23T11:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:30:00-05:00",
+          "startTime": "2025-11-23T12:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:30:00-05:00",
+          "startTime": "2025-11-23T13:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:30:00-05:00",
+          "startTime": "2025-11-23T14:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:30:00-05:00",
+          "startTime": "2025-11-23T15:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:30:00-05:00",
+          "startTime": "2025-11-23T16:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:30:00-05:00",
+          "startTime": "2025-11-23T17:30:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T18:30:00-05:00",
+          "startTime": "2025-11-23T18:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T22:06:45Z"
+    },
+    {
+      "id": "a7763ca6-bca3-4e78-b75c-22886aa06bec",
+      "name": "The Little Mermaid – A Musical Adventure – New!",
+      "entityType": "SHOW",
+      "parkId": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+      "externalId": "412328858;entityType=Entertainment",
+      "queue": {
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:00:00-05:00",
+          "startTime": "2025-11-23T10:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T10:40:00-05:00",
+          "startTime": "2025-11-23T10:40:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T11:20:00-05:00",
+          "startTime": "2025-11-23T11:20:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:00:00-05:00",
+          "startTime": "2025-11-23T12:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T12:40:00-05:00",
+          "startTime": "2025-11-23T12:40:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T13:20:00-05:00",
+          "startTime": "2025-11-23T13:20:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:00:00-05:00",
+          "startTime": "2025-11-23T14:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T14:40:00-05:00",
+          "startTime": "2025-11-23T14:40:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T15:20:00-05:00",
+          "startTime": "2025-11-23T15:20:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:00:00-05:00",
+          "startTime": "2025-11-23T16:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T16:40:00-05:00",
+          "startTime": "2025-11-23T16:40:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T17:20:00-05:00",
+          "startTime": "2025-11-23T17:20:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T18:00:00-05:00",
+          "startTime": "2025-11-23T18:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T18:40:00-05:00",
+          "startTime": "2025-11-23T18:40:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T19:20:00-05:00",
+          "startTime": "2025-11-23T19:20:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-23T20:00:00-05:00",
+          "startTime": "2025-11-23T20:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-23T19:46:46Z"
+    }
+  ]
+}
