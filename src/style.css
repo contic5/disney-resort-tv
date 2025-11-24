@@ -1,7 +1,7 @@
 
-main
+#main
 {
-  background-color: rgb(169, 169, 240);
+  background-color: rgba(169, 169, 240, 0.4);
   padding: 10px;
   margin: auto;
   max-width: 800px;
@@ -9,7 +9,7 @@ main
 }
 body
 {
-  background-color: rgb(138, 138, 231);
+  background-color: rgba(138, 138, 231, 0.4);
 }
 .grid
 {
@@ -25,16 +25,44 @@ body
 {
   column-span: 2;
 }
+
 .animation
 {
   opacity: 0; /* Start with hidden text */
   animation: fadeIn 2s forwards; /* Apply the animation */
 }
+.animation_off
+{
+  opacity: 1; /* Start with visible text */
+  animation: fadeOut 2s forwards; /* Apply the animation */
+}
+
+#background_img
+{
+  position: fixed;
+  inset: 0;             /* top:0; right:0; bottom:0; left:0; */
+  z-index: -1; /* keep it behind text */
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll; /* default: background moves with page */
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0; /* From fully transparent */
   }
   to {
     opacity: 1; /* To fully opaque */
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; /* From fully transparent */
+  }
+  to {
+    opacity: 0; /* To fully opaque */
   }
 }

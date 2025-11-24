@@ -222,16 +222,55 @@ function setup_park_nighttime(park_data:any,park_index:number)
 }
 function rotate_park()
 {
+  fading_out=!fading_out;
   let current_info=document.getElementById("current_info") as HTMLDivElement;
-  current_info.classList.remove("animation");
-  void current_info.offsetWidth;
+  if(fading_out)
+  {
+    current_info.classList.remove("animation_off");
+    current_info.classList.remove("animation");
+    void current_info.offsetWidth;
+    current_info.classList.add("animation_off");
 
-  current_info.classList.add("animation");
+    const image_link=image_links[target_park_index];
+    
+    background_img.style.backgroundImage =`url('/${image_link}')`;
+    background_img.classList.remove("animation_off");
+    background_img.classList.remove("animation");
+    void background_img.offsetWidth;
+    background_img.classList.add("animation_off");
+  }
+  else
+  {
+    target_park_index=(target_park_index+1)%4;
 
-  
-  target_park_index=(target_park_index+1)%4;
-  setup_park_hours(park_arr[target_park_index],target_park_index);
-  setup_park_nighttime(park_arr[target_park_index],target_park_index);
+    current_info.classList.remove("animation");
+    current_info.classList.remove("animation_off");
+    void current_info.offsetWidth;
+    current_info.classList.add("animation");
+
+    const image_link=image_links[target_park_index];
+    
+    background_img.style.backgroundImage =`url('/${image_link}')`;
+    background_img.classList.remove("animation");
+    background_img.classList.remove("animation_off");
+    void background_img.offsetWidth;
+    background_img.classList.add("animation");
+
+    setup_park_hours(park_arr[target_park_index],target_park_index);
+    setup_park_nighttime(park_arr[target_park_index],target_park_index);
+
+    const pageHeight = Math.max(
+    document.body.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.clientHeight,
+    document.documentElement.scrollHeight,
+    document.documentElement.offsetHeight
+    );
+    console.log(pageHeight);
+    const img_width=pageHeight*(1920/1080);
+    const img_height=pageHeight;
+    //background_img.style.backgroundSize=`${img_width}px ${img_height}px`;
+  }
 }
 async function main()
 {
@@ -261,13 +300,16 @@ async function main()
   rotate_park();
 }
 
+let background_img=document.getElementById("background_img") as HTMLDivElement;
 
 const park_names=["Magic Kingdom","Epcot","Disney Hollywood Studios","Animal Kingdom"];
 const park_keys=["75ea578a-adc8-4116-a54d-dccb60765ef9","47f90d2c-e191-4239-a466-5892ef59a88b","288747d1-8b4f-4a64-867e-ea7c9b27bad8","1c84a229-8862-4648-9c71-378ddd2c7693"];
 const local_park_file_links=["magic_kingdom_sample.json","epcot_sample.json","hollywood_studios_sample.json","animal_kingdom_sample.json"];
+const image_links=["central-plaza-partners-cinderella-castle-zoom-background.jpg","epcot-spaceship-earth-zoom-background.jpg","hollywood-studios-runaway-railway-zoom-background.jpg","tree-life-animal-kingdom-zoom-background.jpg"];
 
 const fetching_data=false;
 let park_arr:any=[];
 const family_name="Disney";
+let fading_out:boolean=true;
 let target_park_index=3;
 main();
