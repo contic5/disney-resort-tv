@@ -70,107 +70,28 @@
       "lastUpdated": "2025-11-22T17:36:46Z"
     },
     {
-      "id": "8183f3f2-1b59-4b9c-b634-6a863bdf8d84",
-      "name": "Walt Disney's Carousel of Progress",
-      "entityType": "ATTRACTION",
+      "id": "c4b64a31-e855-46a9-9d1a-aa13c99e88af",
+      "name": "The Crystal Palace",
+      "entityType": "RESTAURANT",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010232;entityType=Attraction",
+      "externalId": "90002660;entityType=restaurant",
       "queue": {
         "STANDBY": {
-          "waitTime": 5
+          "waitTime": 40
         }
       },
       "status": "OPERATING",
-      "forecast": [
+      "diningAvailability": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
+          "waitTime": 40,
+          "partySize": 1
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
+          "waitTime": 40,
+          "partySize": 2
         }
       ],
-      "operatingHours": [
-        {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T17:36:47Z"
+      "lastUpdated": "2025-11-24T14:00:52Z"
     },
     {
       "id": "6fd1e225-53a0-4a80-a577-4bbc9a471075",
@@ -186,77 +107,77 @@
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
+          "time": "2025-11-24T17:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T18:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         }
@@ -264,109 +185,21 @@
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:47Z"
+      "lastUpdated": "2025-11-24T13:11:43Z"
     },
     {
-      "id": "2ebfb38c-5cb5-4de1-86c0-f7af14188022",
-      "name": "The Hall of Presidents",
-      "entityType": "ATTRACTION",
+      "id": "bb28947d-a747-44f0-ac71-1fa8188f4cee",
+      "name": "Minnie's Wonderful Christmastime Fireworks at Mickey's Very Merry Christmas Party",
+      "entityType": "SHOW",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80069754;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 15
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T22:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T17:36:47Z"
+      "externalId": "19336036;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-22T17:36:55Z"
     },
     {
       "id": "30fe3c64-af71-4c66-a54b-aa61fd7af177",
@@ -382,77 +215,77 @@
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 5,
           "percentage": 4
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
           "waitTime": 5,
           "percentage": 4
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 5,
           "percentage": 4
         }
@@ -460,129 +293,11 @@
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:48Z"
-    },
-    {
-      "id": "5a43d1a7-ad53-4d25-abfe-25625f0da304",
-      "name": "TRON Lightcycle / Run",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "411504498;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 60
-        },
-        "PAID_RETURN_TIME": {
-          "price": {
-            "amount": 2300,
-            "currency": "USD",
-            "formatted": "$23.00"
-          },
-          "state": "FINISHED",
-          "returnEnd": null,
-          "returnStart": null
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 70,
-          "percentage": 58
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 54
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 80,
-          "percentage": 66
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 85,
-          "percentage": 70
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 85,
-          "percentage": 70
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 85,
-          "percentage": 70
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 85,
-          "percentage": 70
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 90,
-          "percentage": 75
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 37
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:21:47Z"
-    },
-    {
-      "id": "bb28947d-a747-44f0-ac71-1fa8188f4cee",
-      "name": "Minnie's Wonderful Christmastime Fireworks at Mickey's Very Merry Christmas Party",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "19336036;entityType=Entertainment",
-      "status": "CLOSED",
-      "showtimes": [],
-      "lastUpdated": "2025-11-22T17:36:55Z"
+      "lastUpdated": "2025-11-24T13:11:43Z"
     },
     {
       "id": "f819079e-644e-4fce-bda3-26b899ac7027",
@@ -594,11 +309,11 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T11:05:00-05:00",
-          "startTime": "2025-11-22T11:05:00-05:00"
+          "endTime": "2025-11-24T11:05:00-05:00",
+          "startTime": "2025-11-24T11:05:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:55Z"
+      "lastUpdated": "2025-11-24T05:21:46Z"
     },
     {
       "id": "3dc6e90f-de6e-4bf0-bae9-b04bc930351a",
@@ -610,11 +325,11 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T07:55:00-05:00",
-          "startTime": "2025-11-22T07:55:00-05:00"
+          "endTime": "2025-11-24T07:55:00-05:00",
+          "startTime": "2025-11-24T07:55:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:57Z"
+      "lastUpdated": "2025-11-24T05:21:48Z"
     },
     {
       "id": "22b78ed9-a692-47cb-b6a4-6d1224ff67e3",
@@ -626,11 +341,11 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T21:00:00-05:00",
-          "startTime": "2025-11-22T21:00:00-05:00"
+          "endTime": "2025-11-24T21:00:00-05:00",
+          "startTime": "2025-11-24T21:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:55Z"
+      "lastUpdated": "2025-11-24T05:21:46Z"
     },
     {
       "id": "75ea578a-adc8-4116-a54d-dccb60765ef9",
@@ -687,11 +402,11 @@
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:58Z"
+      "lastUpdated": "2025-11-24T05:26:49Z"
     },
     {
       "id": "86c198b0-7c02-4354-814a-27ad70067d45",
@@ -713,114 +428,109 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T14:00:00-05:00",
-          "startTime": "2025-11-22T14:00:00-05:00"
+          "endTime": "2025-11-24T14:00:00-05:00",
+          "startTime": "2025-11-24T14:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:54Z"
+      "lastUpdated": "2025-11-24T05:21:46Z"
     },
     {
-      "id": "796b0a25-c51e-456e-9bb8-50a324e301b3",
-      "name": "Jingle Cruise",
+      "id": "e76c93df-31af-49a5-8e2f-752c76c937c9",
+      "name": "Enchanted Tales with Belle",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010153;entityType=Attraction",
+      "externalId": "16767276;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 50
-        },
-        "RETURN_TIME": {
-          "state": "FINISHED",
-          "returnEnd": null,
-          "returnStart": null
+          "waitTime": null
         }
       },
-      "status": "OPERATING",
+      "status": "CLOSED",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 60,
-          "percentage": 51
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
         }
       ],
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T19:30:00-05:00",
+          "startTime": "2025-11-24T10:30:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:54:49Z"
+      "lastUpdated": "2025-11-24T08:06:46Z"
     },
     {
       "id": "697473c5-ae17-4c3f-80c7-09a813248013",
@@ -830,141 +540,119 @@
       "externalId": "247904;entityType=restaurant",
       "queue": {
         "STANDBY": {
-          "waitTime": 60
+          "waitTime": null
         }
       },
       "status": "OPERATING",
-      "diningAvailability": [
-        {
-          "waitTime": 60,
-          "partySize": 2
-        },
-        {
-          "waitTime": 60,
-          "partySize": 3
-        },
-        {
-          "waitTime": 60,
-          "partySize": 4
-        },
-        {
-          "waitTime": 60,
-          "partySize": 5
-        },
-        {
-          "waitTime": 60,
-          "partySize": 6
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:56:21Z"
+      "lastUpdated": "2025-11-24T00:50:02Z"
     },
     {
-      "id": "f5aad2d4-a419-4384-bd9a-42f86385c750",
-      "name": "\"it's a small world\"",
+      "id": "b2260923-9315-40fd-9c6b-44dd811dbe64",
+      "name": "Space Mountain",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010149;entityType=Attraction",
+      "externalId": "80010190;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 25
+          "waitTime": 40
         },
         "RETURN_TIME": {
           "state": "AVAILABLE",
           "returnEnd": null,
-          "returnStart": "2025-11-22T18:00:00-05:00"
+          "returnStart": "2025-11-24T16:55:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 30,
           "percentage": 25
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
         }
       ],
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:44Z"
+      "lastUpdated": "2025-11-24T14:01:44Z"
     },
     {
       "id": "012a211b-4c91-451c-8a0e-5e3ab398eda8",
@@ -974,83 +662,83 @@
       "externalId": "16874126;entityType=Entertainment",
       "queue": {
         "STANDBY": {
-          "waitTime": 20
+          "waitTime": null
         }
       },
-      "status": "OPERATING",
+      "status": "CLOSED",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 40,
           "percentage": 34
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
           "waitTime": 40,
           "percentage": 34
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T17:00:00-05:00",
           "waitTime": 45,
           "percentage": 38
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         }
@@ -1058,11 +746,42 @@
       "showtimes": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T19:00:00-05:00",
-          "startTime": "2025-11-22T10:00:00-05:00"
+          "endTime": "2025-11-24T19:00:00-05:00",
+          "startTime": "2025-11-24T10:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:54:49Z"
+      "lastUpdated": "2025-11-24T08:06:45Z"
+    },
+    {
+      "id": "51392ca4-f824-42d8-8808-8110ec8e0e22",
+      "name": "Main Street Philharmonic at Main Street, U.S.A.",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "8066;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T10:50:00-05:00",
+          "startTime": "2025-11-24T10:50:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T12:15:00-05:00",
+          "startTime": "2025-11-24T12:15:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T13:35:00-05:00",
+          "startTime": "2025-11-24T13:35:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T15:35:00-05:00",
+          "startTime": "2025-11-24T15:35:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T05:21:48Z"
     },
     {
       "id": "e847a8bd-7d21-432b-a7a1-f483517a22b5",
@@ -1076,213 +795,7 @@
         }
       },
       "status": "OPERATING",
-      "lastUpdated": "2025-11-22T21:55:07Z"
-    },
-    {
-      "id": "51392ca4-f824-42d8-8808-8110ec8e0e22",
-      "name": "Main Street Philharmonic at Main Street, U.S.A.",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "8066;entityType=Entertainment",
-      "status": "CLOSED",
-      "showtimes": [],
-      "lastUpdated": "2025-11-21T05:30:06Z"
-    },
-    {
-      "id": "b5d6d1d1-e960-4c8f-a8a4-b9748b386b64",
-      "name": "Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "15743682;entityType=Entertainment",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 30
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        }
-      ],
-      "showtimes": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T19:00:00-05:00",
-          "startTime": "2025-11-22T10:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:36:51Z"
-    },
-    {
-      "id": "cf4b2ba4-3626-4de7-9d07-abe8a65b1665",
-      "name": "Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "17505397;entityType=Entertainment",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 30
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        }
-      ],
-      "showtimes": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T21:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:33:50Z"
+      "lastUpdated": "2025-11-24T01:26:45Z"
     },
     {
       "id": "a1057509-c3f2-4136-9c26-b53fe3488e63",
@@ -1294,31 +807,31 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T11:20:00-05:00",
-          "startTime": "2025-11-22T11:20:00-05:00"
+          "endTime": "2025-11-24T11:20:00-05:00",
+          "startTime": "2025-11-24T11:20:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T12:10:00-05:00",
-          "startTime": "2025-11-22T12:10:00-05:00"
+          "endTime": "2025-11-24T12:10:00-05:00",
+          "startTime": "2025-11-24T12:10:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T13:10:00-05:00",
-          "startTime": "2025-11-22T13:10:00-05:00"
+          "endTime": "2025-11-24T13:10:00-05:00",
+          "startTime": "2025-11-24T13:10:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T14:35:00-05:00",
-          "startTime": "2025-11-22T14:35:00-05:00"
+          "endTime": "2025-11-24T14:35:00-05:00",
+          "startTime": "2025-11-24T14:35:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T15:30:00-05:00",
-          "startTime": "2025-11-22T15:30:00-05:00"
+          "endTime": "2025-11-24T15:30:00-05:00",
+          "startTime": "2025-11-24T15:30:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:57Z"
+      "lastUpdated": "2025-11-24T05:21:48Z"
     },
     {
       "id": "6ea670b8-3097-4d60-b69c-94e16071da17",
@@ -1328,21 +841,37 @@
       "externalId": "18185631;entityType=restaurant",
       "queue": {
         "STANDBY": {
-          "waitTime": 55
+          "waitTime": null
         }
       },
       "status": "OPERATING",
-      "diningAvailability": [
-        {
-          "waitTime": 55,
-          "partySize": 1
+      "lastUpdated": "2025-11-24T01:50:22Z"
+    },
+    {
+      "id": "2551a77d-023f-4ab1-9a19-8afec0190f39",
+      "name": "Haunted Mansion",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010208;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
         },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T21:45:00-05:00"
+        }
+      },
+      "status": "DOWN",
+      "operatingHours": [
         {
-          "waitTime": 55,
-          "partySize": 2
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:55:40Z"
+      "lastUpdated": "2025-11-24T14:01:44Z"
     },
     {
       "id": "4c31b3ad-5dc9-437f-ac1a-0fdff36a2818",
@@ -1354,134 +883,31 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T10:15:00-05:00",
-          "startTime": "2025-11-22T10:15:00-05:00"
+          "endTime": "2025-11-24T10:15:00-05:00",
+          "startTime": "2025-11-24T10:15:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T11:35:00-05:00",
-          "startTime": "2025-11-22T11:35:00-05:00"
+          "endTime": "2025-11-24T11:35:00-05:00",
+          "startTime": "2025-11-24T11:35:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T12:55:00-05:00",
-          "startTime": "2025-11-22T12:55:00-05:00"
+          "endTime": "2025-11-24T12:55:00-05:00",
+          "startTime": "2025-11-24T12:55:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T14:50:00-05:00",
-          "startTime": "2025-11-22T14:50:00-05:00"
+          "endTime": "2025-11-24T14:50:00-05:00",
+          "startTime": "2025-11-24T14:50:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T16:00:00-05:00",
-          "startTime": "2025-11-22T16:00:00-05:00"
+          "endTime": "2025-11-24T16:00:00-05:00",
+          "startTime": "2025-11-24T16:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:55Z"
-    },
-    {
-      "id": "96455de6-f4f1-403c-9391-bf8396979149",
-      "name": "The Magic Carpets of Aladdin",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010210;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 20
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T19:30:00-05:00"
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:51:46Z"
+      "lastUpdated": "2025-11-24T05:21:46Z"
     },
     {
       "id": "e39b831b-7731-49bb-815b-289b4f49a9fd",
@@ -1491,433 +917,116 @@
       "externalId": "80010230;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 20
+          "waitTime": null
         }
       },
       "status": "OPERATING",
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T20:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
+          "endTime": "2025-11-24T20:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:48Z"
+      "lastUpdated": "2025-11-24T14:00:54Z"
     },
     {
-      "id": "e76c93df-31af-49a5-8e2f-752c76c937c9",
-      "name": "Enchanted Tales with Belle",
+      "id": "2ebfb38c-5cb5-4de1-86c0-f7af14188022",
+      "name": "The Hall of Presidents",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "16767276;entityType=Attraction",
+      "externalId": "80069754;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 20
+          "waitTime": 15
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:51:55Z"
-    },
-    {
-      "id": "86a41273-5f15-4b54-93b6-829f140e5161",
-      "name": "Peter Pan's Flight",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010176;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 55
-        },
-        "RETURN_TIME": {
-          "state": "FINISHED",
-          "returnEnd": null,
-          "returnStart": null
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
         }
       ],
       "operatingHours": [
         {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T22:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:41:44Z"
-    },
-    {
-      "id": "166f2985-7b27-4eff-a8b3-29c3448ba198",
-      "name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "387133;entityType=Entertainment",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 40
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        }
-      ],
-      "showtimes": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T19:00:00-05:00",
-          "startTime": "2025-11-22T10:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:36:51Z"
-    },
-    {
-      "id": "99baf196-9dfc-4b13-af77-025e87ac2a7d",
-      "name": "Mickey's Once Upon a Christmastime Parade at Mickey's Very Merry Christmas Party",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "8320;entityType=Entertainment",
-      "status": "CLOSED",
-      "showtimes": [],
-      "lastUpdated": "2025-11-22T17:36:57Z"
-    },
-    {
-      "id": "a2d92647-634d-4eb4-886b-9da858e871f1",
-      "name": "Meet Mickey at Town Square Theater",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "15850196;entityType=Entertainment",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 30
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        }
-      ],
-      "showtimes": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T22:30:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:06:55Z"
-    },
-    {
-      "id": "de3309ca-97d5-4211-bffe-739fed47e92f",
-      "name": "Big Thunder Mountain Railroad",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010110;entityType=Attraction",
-      "status": "REFURBISHMENT",
-      "operatingHours": [],
-      "lastUpdated": "2025-03-06T04:05:59Z"
+      "lastUpdated": "2025-11-24T13:41:43Z"
     },
     {
       "id": "9d4d5229-7142-44b6-b4fb-528920969a2c",
@@ -1927,7 +1036,7 @@
       "externalId": "16767284;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 60
+          "waitTime": 50
         },
         "PAID_RETURN_TIME": {
           "price": {
@@ -1943,94 +1052,195 @@
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 40,
           "percentage": 34
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 45,
           "percentage": 38
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 65,
-          "percentage": 56
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 75,
-          "percentage": 64
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 75,
-          "percentage": 64
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 70,
           "percentage": 60
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 55,
-          "percentage": 47
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 75,
+          "percentage": 64
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 70,
+          "percentage": 60
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 56
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 40,
           "percentage": 34
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 25,
           "percentage": 21
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:01:10Z"
+    },
+    {
+      "id": "ffcfeaa2-1416-4920-a1ed-543c1a1695c4",
+      "name": "Tomorrowland Transit Authority PeopleMover",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010224;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         }
       ],
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:41:44Z"
+      "lastUpdated": "2025-11-24T12:51:43Z"
+    },
+    {
+      "id": "99baf196-9dfc-4b13-af77-025e87ac2a7d",
+      "name": "Mickey's Once Upon a Christmastime Parade at Mickey's Very Merry Christmas Party",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "8320;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-11-22T17:36:57Z"
     },
     {
       "id": "55bdcccc-217b-416c-b8b0-4b6a87d16179",
@@ -2044,146 +1254,125 @@
         }
       },
       "status": "OPERATING",
-      "lastUpdated": "2025-11-22T01:53:13Z"
+      "lastUpdated": "2025-11-24T14:00:02Z"
     },
     {
-      "id": "0d94ad60-72f0-4551-83a6-ebaecdd89737",
-      "name": "The Many Adventures of Winnie the Pooh",
+      "id": "5a43d1a7-ad53-4d25-abfe-25625f0da304",
+      "name": "TRON Lightcycle / Run",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010213;entityType=Attraction",
+      "externalId": "411504498;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": null
+          "waitTime": 75
         },
-        "RETURN_TIME": {
+        "PAID_RETURN_TIME": {
+          "price": {
+            "amount": 2300,
+            "currency": "USD",
+            "formatted": "$23.00"
+          },
           "state": "FINISHED",
           "returnEnd": null,
           "returnStart": null
         }
       },
-      "status": "DOWN",
-      "operatingHours": [
-        {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T19:31:44Z"
-    },
-    {
-      "id": "7c5e1e02-3a44-4151-9005-44066d5ba1da",
-      "name": "Mickey's PhilharMagic",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010170;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 10
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T16:55:00-05:00"
-        }
-      },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 70,
+          "percentage": 58
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 50
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 65,
+          "percentage": 54
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 80,
+          "percentage": 66
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 85,
+          "percentage": 70
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 37
         }
       ],
       "operatingHours": [
         {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:45Z"
+      "lastUpdated": "2025-11-24T13:46:45Z"
+    },
+    {
+      "id": "de3309ca-97d5-4211-bffe-739fed47e92f",
+      "name": "Big Thunder Mountain Railroad",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010110;entityType=Attraction",
+      "status": "REFURBISHMENT",
+      "operatingHours": [],
+      "lastUpdated": "2025-03-06T04:05:59Z"
     },
     {
       "id": "90d79335-c907-4069-a021-d0fe1ec73ae2",
@@ -2195,11 +1384,119 @@
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:58Z"
+      "lastUpdated": "2025-11-24T05:26:49Z"
+    },
+    {
+      "id": "0aae716c-af13-4439-b638-d75fb1649df3",
+      "name": "Mad Tea Party",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010162;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T10:50:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T13:56:44Z"
     },
     {
       "id": "888fb4a4-7adf-47a1-8ba2-c258cc64fd75",
@@ -2216,205 +1513,330 @@
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:46Z"
+      "lastUpdated": "2025-11-24T12:51:43Z"
     },
     {
-      "id": "ffcfeaa2-1416-4920-a1ed-543c1a1695c4",
-      "name": "Tomorrowland Transit Authority PeopleMover",
+      "id": "96455de6-f4f1-403c-9391-bf8396979149",
+      "name": "The Magic Carpets of Aladdin",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010224;entityType=Attraction",
+      "externalId": "80010210;entityType=Attraction",
       "queue": {
         "STANDBY": {
           "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T13:10:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 20,
           "percentage": 17
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:54:54Z"
-    },
-    {
-      "id": "40737d3d-0ff6-4a9e-a050-beb87bf90120",
-      "name": "Meet Cinderella and a Visiting Princess at Princess Fairytale Hall",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "18498503;entityType=Entertainment",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 35
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 30,
           "percentage": 25
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         }
       ],
-      "showtimes": [
+      "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T21:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:42:56Z"
+      "lastUpdated": "2025-11-24T14:00:55Z"
+    },
+    {
+      "id": "352feb94-e52e-45eb-9c92-e4b44c6b1a9d",
+      "name": "Pirates of the Caribbean",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010177;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T20:10:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:00:54Z"
+    },
+    {
+      "id": "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef",
+      "name": "Under the Sea - Journey of The Little Mermaid",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "16767263;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T14:00:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:01:45Z"
     },
     {
       "id": "ae9a4a79-ccf1-4561-9a95-cf83d3007b98",
@@ -2424,29 +1846,11 @@
       "externalId": "90001819;entityType=restaurant",
       "queue": {
         "STANDBY": {
-          "waitTime": 10
+          "waitTime": null
         }
       },
       "status": "OPERATING",
-      "diningAvailability": [
-        {
-          "waitTime": 20,
-          "partySize": 1
-        },
-        {
-          "waitTime": 10,
-          "partySize": 2
-        },
-        {
-          "waitTime": 10,
-          "partySize": 3
-        },
-        {
-          "waitTime": 10,
-          "partySize": 4
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:55:48Z"
+      "lastUpdated": "2025-11-23T20:31:45Z"
     },
     {
       "id": "46a67154-8d90-427a-ad5c-700b41d90966",
@@ -2458,102 +1862,102 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T18:15:00-05:00",
-          "startTime": "2025-11-22T18:15:00-05:00"
+          "endTime": "2025-11-24T18:15:00-05:00",
+          "startTime": "2025-11-24T18:15:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:56Z"
+      "lastUpdated": "2025-11-24T05:21:47Z"
     },
     {
-      "id": "b2260923-9315-40fd-9c6b-44dd811dbe64",
-      "name": "Space Mountain",
+      "id": "86a41273-5f15-4b54-93b6-829f140e5161",
+      "name": "Peter Pan's Flight",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010190;entityType=Attraction",
+      "externalId": "80010176;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 50
+          "waitTime": 35
         },
         "RETURN_TIME": {
           "state": "AVAILABLE",
           "returnEnd": null,
-          "returnStart": "2025-11-22T17:40:00-05:00"
+          "returnStart": "2025-11-24T20:25:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 50,
           "percentage": 43
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 50,
           "percentage": 43
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 45,
           "percentage": 38
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 50,
-          "percentage": 43
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 20,
           "percentage": 17
         }
@@ -2561,103 +1965,124 @@
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:54:49Z"
+      "lastUpdated": "2025-11-24T14:01:44Z"
     },
     {
-      "id": "e40ac396-cbac-43f4-8752-764ed60ccceb",
-      "name": "Walt Disney World Railroad - Fantasyland",
+      "id": "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48",
+      "name": "The Barnstormer",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "16491299;entityType=Attraction",
+      "externalId": "16491297;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 20
+          "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T15:25:00-05:00"
         }
       },
       "status": "OPERATING",
-      "operatingHours": [
+      "forecast": [
         {
-          "type": "Operating",
-          "endTime": "2025-11-22T20:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T17:36:48Z"
-    },
-    {
-      "id": "d69261dc-62b8-434c-83bd-93649b43c408",
-      "name": "Disney Starlight: Dream the Night Away",
-      "entityType": "SHOW",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "412328853;entityType=Entertainment",
-      "status": "OPERATING",
-      "showtimes": [
-        {
-          "type": "Performance Time",
-          "endTime": "2025-11-22T20:00:00-05:00",
-          "startTime": "2025-11-22T20:00:00-05:00"
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         },
         {
-          "type": "Performance Time",
-          "endTime": "2025-11-22T22:30:00-05:00",
-          "startTime": "2025-11-22T22:30:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T17:36:56Z"
-    },
-    {
-      "id": "83201c33-ce99-45ae-a595-f47e61d73739",
-      "name": "Tony's Town Square Restaurant",
-      "entityType": "RESTAURANT",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "90002678;entityType=restaurant",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 60
-        }
-      },
-      "status": "OPERATING",
-      "diningAvailability": [
-        {
-          "waitTime": 60,
-          "partySize": 1
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
         },
         {
-          "waitTime": 60,
-          "partySize": 2
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         }
       ],
-      "lastUpdated": "2025-11-22T21:52:42Z"
-    },
-    {
-      "id": "de737ffc-306b-4f32-8bbb-34e5d370ec8f",
-      "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "17272158;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": null
-        }
-      },
-      "status": "OPERATING",
       "operatingHours": [
         {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
           "type": "Operating",
-          "endTime": "2025-11-22T18:00:00-05:00",
-          "startTime": "2025-11-22T12:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:49Z"
+      "lastUpdated": "2025-11-24T14:01:45Z"
     },
     {
       "id": "e8f0b426-7645-4ea3-8b41-b94ae7091a41",
@@ -2672,83 +2097,83 @@
         "RETURN_TIME": {
           "state": "AVAILABLE",
           "returnEnd": null,
-          "returnStart": "2025-11-22T17:00:00-05:00"
+          "returnStart": "2025-11-24T09:20:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
+          "time": "2025-11-24T17:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T18:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 0,
           "percentage": 0
         }
@@ -2756,480 +2181,11 @@
       "operatingHours": [
         {
           "type": "Operating",
-          "endTime": "2025-11-22T22:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T22:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:46:43Z"
-    },
-    {
-      "id": "352feb94-e52e-45eb-9c92-e4b44c6b1a9d",
-      "name": "Pirates of the Caribbean",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010177;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 15
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T19:55:00-05:00"
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 35,
-          "percentage": 30
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:51:44Z"
-    },
-    {
-      "id": "c4b64a31-e855-46a9-9d1a-aa13c99e88af",
-      "name": "The Crystal Palace",
-      "entityType": "RESTAURANT",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "90002660;entityType=restaurant",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 10
-        }
-      },
-      "status": "OPERATING",
-      "diningAvailability": [
-        {
-          "waitTime": 10,
-          "partySize": 1
-        },
-        {
-          "waitTime": 10,
-          "partySize": 2
-        },
-        {
-          "waitTime": 10,
-          "partySize": 3
-        },
-        {
-          "waitTime": 10,
-          "partySize": 4
-        },
-        {
-          "waitTime": 60,
-          "partySize": 5
-        },
-        {
-          "waitTime": 60,
-          "partySize": 6
-        },
-        {
-          "waitTime": 20,
-          "partySize": 8
-        },
-        {
-          "waitTime": 20,
-          "partySize": 9
-        },
-        {
-          "waitTime": 20,
-          "partySize": 10
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:55:03Z"
-    },
-    {
-      "id": "0f57cecf-5502-4503-8bc3-ba84d3708ace",
-      "name": "Country Bear Musical Jamboree",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80069748;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 10
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 0,
-          "percentage": 0
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T17:36:47Z"
-    },
-    {
-      "id": "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef",
-      "name": "Under the Sea - Journey of The Little Mermaid",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "16767263;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 30
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T18:55:00-05:00"
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:51:46Z"
-    },
-    {
-      "id": "890fa430-89c0-4a3f-96c9-11597888005e",
-      "name": "Dumbo the Flying Elephant",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010129;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 35
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T17:15:00-05:00"
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
-      "operatingHours": [
-        {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
-          "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:54:49Z"
+      "lastUpdated": "2025-11-24T13:56:43Z"
     },
     {
       "id": "f163ddcd-43e1-488d-8276-2381c1db0a39",
@@ -3239,88 +2195,88 @@
       "externalId": "80010222;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 10
+          "waitTime": 25
         },
         "RETURN_TIME": {
           "state": "AVAILABLE",
           "returnEnd": null,
-          "returnStart": "2025-11-22T19:00:00-05:00"
+          "returnStart": "2025-11-24T14:50:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         }
@@ -3328,129 +2284,119 @@
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:45Z"
+      "lastUpdated": "2025-11-24T14:01:44Z"
     },
     {
-      "id": "72c7343a-f7fb-4f66-95df-c91016de7338",
-      "name": "Buzz Lightyear's Space Ranger Spin",
+      "id": "d9d12438-d999-4482-894b-8955fdb20ccf",
+      "name": "Astro Orbiter",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010114;entityType=Attraction",
-      "status": "REFURBISHMENT",
-      "operatingHours": [],
-      "lastUpdated": "2025-10-04T03:03:28Z"
-    },
-    {
-      "id": "2551a77d-023f-4ab1-9a19-8afec0190f39",
-      "name": "Haunted Mansion",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010208;entityType=Attraction",
+      "externalId": "80010107;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 25
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T21:35:00-05:00"
+          "waitTime": 35
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 30,
           "percentage": 25
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 45,
-          "percentage": 38
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 40,
-          "percentage": 34
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 20,
           "percentage": 17
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
         }
       ],
       "operatingHours": [
         {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:45Z"
+      "lastUpdated": "2025-11-24T13:56:45Z"
     },
     {
       "id": "273ddb8d-e7b5-4e34-8657-1113f49262a5",
@@ -3466,77 +2412,77 @@
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T13:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
+          "time": "2025-11-24T16:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T17:00:00-05:00",
+          "time": "2025-11-24T17:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T18:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 5,
           "percentage": 4
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 5,
           "percentage": 4
         }
@@ -3544,220 +2490,58 @@
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:45Z"
+      "lastUpdated": "2025-11-24T12:51:44Z"
     },
     {
-      "id": "0aae716c-af13-4439-b638-d75fb1649df3",
-      "name": "Mad Tea Party",
+      "id": "e40ac396-cbac-43f4-8752-764ed60ccceb",
+      "name": "Walt Disney World Railroad - Fantasyland",
       "entityType": "ATTRACTION",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010162;entityType=Attraction",
+      "externalId": "16491299;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 10
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T17:40:00-05:00"
+          "waitTime": null
         }
       },
       "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
-      "lastUpdated": "2025-11-22T21:54:52Z"
-    },
-    {
-      "id": "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48",
-      "name": "The Barnstormer",
-      "entityType": "ATTRACTION",
-      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "16491297;entityType=Attraction",
-      "queue": {
-        "STANDBY": {
-          "waitTime": 25
-        },
-        "RETURN_TIME": {
-          "state": "AVAILABLE",
-          "returnEnd": null,
-          "returnStart": "2025-11-22T18:40:00-05:00"
-        }
-      },
-      "status": "OPERATING",
-      "forecast": [
-        {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T19:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        },
-        {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 5,
-          "percentage": 4
-        }
-      ],
       "operatingHours": [
         {
-          "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
-        },
-        {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T20:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:51:46Z"
+      "lastUpdated": "2025-11-24T14:00:55Z"
+    },
+    {
+      "id": "d69261dc-62b8-434c-83bd-93649b43c408",
+      "name": "Disney Starlight: Dream the Night Away",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "412328853;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T20:00:00-05:00",
+          "startTime": "2025-11-24T20:00:00-05:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-11-24T22:30:00-05:00",
+          "startTime": "2025-11-24T22:30:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T05:21:47Z"
     },
     {
       "id": "73cb9445-0695-47a3-87ce-d08ae36b5f3c",
@@ -3767,196 +2551,1345 @@
       "externalId": "412021364;entityType=Attraction",
       "queue": {
         "STANDBY": {
-          "waitTime": 45
+          "waitTime": 15
         },
         "RETURN_TIME": {
-          "state": "FINISHED",
+          "state": "AVAILABLE",
           "returnEnd": null,
-          "returnStart": null
+          "returnStart": "2025-11-24T19:40:00-05:00"
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         },
         {
-          "time": "2025-11-22T09:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
           "waitTime": 25,
           "percentage": 21
         },
         {
-          "time": "2025-11-22T10:00:00-05:00",
+          "time": "2025-11-24T10:00:00-05:00",
           "waitTime": 45,
           "percentage": 38
         },
         {
-          "time": "2025-11-22T11:00:00-05:00",
+          "time": "2025-11-24T11:00:00-05:00",
           "waitTime": 55,
           "percentage": 47
         },
         {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 60,
-          "percentage": 51
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 60,
-          "percentage": 51
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
+          "time": "2025-11-24T12:00:00-05:00",
           "waitTime": 55,
           "percentage": 47
         },
         {
-          "time": "2025-11-22T15:00:00-05:00",
+          "time": "2025-11-24T13:00:00-05:00",
           "waitTime": 60,
           "percentage": 51
         },
         {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 60,
-          "percentage": 51
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
-          "waitTime": 60,
-          "percentage": 51
-        },
-        {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 55,
           "percentage": 47
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
           "waitTime": 25,
           "percentage": 21
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
+          "time": "2025-11-24T20:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
+          "time": "2025-11-24T21:00:00-05:00",
           "waitTime": 15,
           "percentage": 12
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
+          "time": "2025-11-24T22:00:00-05:00",
           "waitTime": 10,
           "percentage": 8
         }
       ],
-      "lastUpdated": "2025-11-22T21:54:52Z"
+      "lastUpdated": "2025-11-24T13:57:59Z"
     },
     {
-      "id": "d9d12438-d999-4482-894b-8955fdb20ccf",
-      "name": "Astro Orbiter",
-      "entityType": "ATTRACTION",
+      "id": "83201c33-ce99-45ae-a595-f47e61d73739",
+      "name": "Tony's Town Square Restaurant",
+      "entityType": "RESTAURANT",
       "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
-      "externalId": "80010107;entityType=Attraction",
+      "externalId": "90002678;entityType=restaurant",
       "queue": {
         "STANDBY": {
-          "waitTime": 20
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-11-24T01:56:35Z"
+    },
+    {
+      "id": "a2d92647-634d-4eb4-886b-9da858e871f1",
+      "name": "Meet Mickey at Town Square Theater",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "15850196;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 30
         }
       },
       "status": "OPERATING",
       "forecast": [
         {
-          "time": "2025-11-22T08:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
-        },
-        {
-          "time": "2025-11-22T09:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
-        },
-        {
-          "time": "2025-11-22T10:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T11:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T12:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T13:00:00-05:00",
-          "waitTime": 20,
-          "percentage": 17
-        },
-        {
-          "time": "2025-11-22T14:00:00-05:00",
-          "waitTime": 25,
-          "percentage": 21
-        },
-        {
-          "time": "2025-11-22T15:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T16:00:00-05:00",
-          "waitTime": 30,
-          "percentage": 25
-        },
-        {
-          "time": "2025-11-22T17:00:00-05:00",
+          "time": "2025-11-24T08:00:00-05:00",
           "waitTime": 35,
           "percentage": 30
         },
         {
-          "time": "2025-11-22T18:00:00-05:00",
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
           "waitTime": 30,
           "percentage": 25
         },
         {
-          "time": "2025-11-22T19:00:00-05:00",
+          "time": "2025-11-24T15:00:00-05:00",
           "waitTime": 30,
           "percentage": 25
         },
         {
-          "time": "2025-11-22T20:00:00-05:00",
-          "waitTime": 15,
-          "percentage": 12
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
         },
         {
-          "time": "2025-11-22T21:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
         },
         {
-          "time": "2025-11-22T22:00:00-05:00",
-          "waitTime": 10,
-          "percentage": 8
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T22:30:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T13:58:05Z"
+    },
+    {
+      "id": "de737ffc-306b-4f32-8bbb-34e5d370ec8f",
+      "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "17272158;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T18:00:00-05:00",
+          "startTime": "2025-11-24T12:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T05:26:47Z"
+    },
+    {
+      "id": "8183f3f2-1b59-4b9c-b634-6a863bdf8d84",
+      "name": "Walt Disney's Carousel of Progress",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010232;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
         }
       ],
       "operatingHours": [
         {
           "type": "Early Entry",
-          "endTime": "2025-11-22T08:00:00-05:00",
-          "startTime": "2025-11-22T07:30:00-05:00"
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
         },
         {
           "type": "Operating",
-          "endTime": "2025-11-22T23:00:00-05:00",
-          "startTime": "2025-11-22T08:00:00-05:00"
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T21:54:49Z"
+      "lastUpdated": "2025-11-24T13:03:54Z"
+    },
+    {
+      "id": "0f57cecf-5502-4503-8bc3-ba84d3708ace",
+      "name": "Country Bear Musical Jamboree",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80069748;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:00:54Z"
+    },
+    {
+      "id": "cf4b2ba4-3626-4de7-9d07-abe8a65b1665",
+      "name": "Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "17505397;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T21:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:00:54Z"
+    },
+    {
+      "id": "40737d3d-0ff6-4a9e-a050-beb87bf90120",
+      "name": "Meet Cinderella and a Visiting Princess at Princess Fairytale Hall",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "18498503;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T21:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:00:55Z"
+    },
+    {
+      "id": "796b0a25-c51e-456e-9bb8-50a324e301b3",
+      "name": "Jingle Cruise",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010153;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T22:15:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 55,
+          "percentage": 47
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 60,
+          "percentage": 51
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:01:08Z"
+    },
+    {
+      "id": "0d94ad60-72f0-4551-83a6-ebaecdd89737",
+      "name": "The Many Adventures of Winnie the Pooh",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010213;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 30
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T20:30:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 40,
+          "percentage": 34
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:01:10Z"
+    },
+    {
+      "id": "f5aad2d4-a419-4384-bd9a-42f86385c750",
+      "name": "\"it's a small world\"",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010149;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T13:05:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T13:56:44Z"
+    },
+    {
+      "id": "b5d6d1d1-e960-4c8f-a8a4-b9748b386b64",
+      "name": "Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "15743682;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 50,
+          "percentage": 43
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T19:00:00-05:00",
+          "startTime": "2025-11-24T10:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T08:06:44Z"
+    },
+    {
+      "id": "7c5e1e02-3a44-4151-9005-44066d5ba1da",
+      "name": "Mickey's PhilharMagic",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010170;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 10
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T09:05:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T14:01:44Z"
+    },
+    {
+      "id": "72c7343a-f7fb-4f66-95df-c91016de7338",
+      "name": "Buzz Lightyear's Space Ranger Spin",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010114;entityType=Attraction",
+      "status": "REFURBISHMENT",
+      "operatingHours": [],
+      "lastUpdated": "2025-10-04T03:03:28Z"
+    },
+    {
+      "id": "890fa430-89c0-4a3f-96c9-11597888005e",
+      "name": "Dumbo the Flying Elephant",
+      "entityType": "ATTRACTION",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "80010129;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-11-24T12:25:00-05:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 20,
+          "percentage": 17
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-11-24T08:00:00-05:00",
+          "startTime": "2025-11-24T07:30:00-05:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T23:00:00-05:00",
+          "startTime": "2025-11-24T08:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T13:56:44Z"
+    },
+    {
+      "id": "166f2985-7b27-4eff-a8b3-29c3448ba198",
+      "name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
+      "entityType": "SHOW",
+      "parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+      "externalId": "387133;entityType=Entertainment",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "forecast": [
+        {
+          "time": "2025-11-24T08:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T09:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T10:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T11:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T12:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T13:00:00-05:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-11-24T14:00:00-05:00",
+          "waitTime": 25,
+          "percentage": 21
+        },
+        {
+          "time": "2025-11-24T15:00:00-05:00",
+          "waitTime": 35,
+          "percentage": 30
+        },
+        {
+          "time": "2025-11-24T16:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T17:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T18:00:00-05:00",
+          "waitTime": 45,
+          "percentage": 38
+        },
+        {
+          "time": "2025-11-24T19:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T20:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T21:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-11-24T22:00:00-05:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-11-24T19:00:00-05:00",
+          "startTime": "2025-11-24T10:00:00-05:00"
+        }
+      ],
+      "lastUpdated": "2025-11-24T08:06:45Z"
     },
     {
       "id": "1c708beb-41e1-43ae-8dd8-1e85075aeb38",
@@ -3968,11 +3901,11 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T17:00:00-05:00",
-          "startTime": "2025-11-22T17:00:00-05:00"
+          "endTime": "2025-11-24T17:00:00-05:00",
+          "startTime": "2025-11-24T17:00:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:57Z"
+      "lastUpdated": "2025-11-24T05:21:48Z"
     },
     {
       "id": "1eee22e8-1d0a-4809-a42b-df3ae55c69d5",
@@ -3984,36 +3917,36 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T09:00:00-05:00",
-          "startTime": "2025-11-22T09:00:00-05:00"
+          "endTime": "2025-11-24T09:00:00-05:00",
+          "startTime": "2025-11-24T09:00:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T09:50:00-05:00",
-          "startTime": "2025-11-22T09:50:00-05:00"
+          "endTime": "2025-11-24T09:50:00-05:00",
+          "startTime": "2025-11-24T09:50:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T10:40:00-05:00",
-          "startTime": "2025-11-22T10:40:00-05:00"
+          "endTime": "2025-11-24T10:40:00-05:00",
+          "startTime": "2025-11-24T10:40:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T11:55:00-05:00",
-          "startTime": "2025-11-22T11:55:00-05:00"
+          "endTime": "2025-11-24T11:55:00-05:00",
+          "startTime": "2025-11-24T11:55:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T14:50:00-05:00",
-          "startTime": "2025-11-22T14:50:00-05:00"
+          "endTime": "2025-11-24T14:50:00-05:00",
+          "startTime": "2025-11-24T14:50:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T15:45:00-05:00",
-          "startTime": "2025-11-22T15:45:00-05:00"
+          "endTime": "2025-11-24T15:45:00-05:00",
+          "startTime": "2025-11-24T15:45:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:57Z"
+      "lastUpdated": "2025-11-24T05:21:48Z"
     },
     {
       "id": "75d43698-162c-47af-a607-e879637dc8e7",
@@ -4027,7 +3960,7 @@
         }
       },
       "status": "OPERATING",
-      "lastUpdated": "2025-11-22T21:56:21Z"
+      "lastUpdated": "2025-11-24T00:31:45Z"
     },
     {
       "id": "a0613b70-293f-4a5b-8169-357be1777c62",
@@ -4039,41 +3972,41 @@
       "showtimes": [
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T10:50:00-05:00",
-          "startTime": "2025-11-22T10:50:00-05:00"
+          "endTime": "2025-11-24T10:50:00-05:00",
+          "startTime": "2025-11-24T10:50:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T11:55:00-05:00",
-          "startTime": "2025-11-22T11:55:00-05:00"
+          "endTime": "2025-11-24T11:55:00-05:00",
+          "startTime": "2025-11-24T11:55:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T12:35:00-05:00",
-          "startTime": "2025-11-22T12:35:00-05:00"
+          "endTime": "2025-11-24T12:35:00-05:00",
+          "startTime": "2025-11-24T12:35:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T13:25:00-05:00",
-          "startTime": "2025-11-22T13:25:00-05:00"
+          "endTime": "2025-11-24T13:25:00-05:00",
+          "startTime": "2025-11-24T13:25:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T15:15:00-05:00",
-          "startTime": "2025-11-22T15:15:00-05:00"
+          "endTime": "2025-11-24T15:15:00-05:00",
+          "startTime": "2025-11-24T15:15:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T16:40:00-05:00",
-          "startTime": "2025-11-22T16:40:00-05:00"
+          "endTime": "2025-11-24T16:40:00-05:00",
+          "startTime": "2025-11-24T16:40:00-05:00"
         },
         {
           "type": "Performance Time",
-          "endTime": "2025-11-22T17:30:00-05:00",
-          "startTime": "2025-11-22T17:30:00-05:00"
+          "endTime": "2025-11-24T17:30:00-05:00",
+          "startTime": "2025-11-24T17:30:00-05:00"
         }
       ],
-      "lastUpdated": "2025-11-22T17:36:57Z"
+      "lastUpdated": "2025-11-24T05:21:48Z"
     }
   ]
 }
