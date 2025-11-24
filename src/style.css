@@ -37,6 +37,17 @@ body
   animation: fadeOut 2s forwards; /* Apply the animation */
 }
 
+#background_img_top
+{
+  position: fixed;
+  inset: 0;             /* top:0; right:0; bottom:0; left:0; */
+  z-index: -2; /* keep it behind regular background image */
+
+  background-size: cover;
+  background-position: center;
+
+  background-image: url("pexels-pixabay-53594.jpg");
+}
 #background_img
 {
   position: fixed;
