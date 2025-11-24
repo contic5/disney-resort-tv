@@ -151,6 +151,9 @@ function find_park_hours(park_data:any):string[]
 }
 function setup_park_hours(park_data:any,park_index:number)
 {
+  let park_hours_today=document.getElementById("park_hours_today") as HTMLDivElement;
+  park_hours_today.innerHTML="";
+
   let time_range=find_park_hours(park_data);
   console.log(time_range);
   console.log(time_range);
@@ -158,19 +161,22 @@ function setup_park_hours(park_data:any,park_index:number)
 
   let hours_h2=document.createElement("h2");
   hours_h2.innerHTML=`${park_names[park_index]} Hours`;
-  document.getElementById("park_hours_today")?.appendChild(hours_h2);
+  park_hours_today.appendChild(hours_h2);
 
   const opening_time:string=time_range[0];
   const closing_time:string=time_range[1];
   let park_hours_h2=document.createElement("h2");
   park_hours_h2.innerHTML=opening_time+" - "+closing_time;
-  document.getElementById("park_hours_today")?.appendChild(park_hours_h2);
+  park_hours_today.appendChild(park_hours_h2);
 }
 function setup_park_nighttime(park_data:any,park_index:number)
 {
+  let park_nighttime_today=document.getElementById("park_nighttime_today") as HTMLDivElement;
+  park_nighttime_today.innerHTML="";
+
   let h2=document.createElement("h2");
   h2.innerHTML=`${park_names[park_index]} Nighttime Shows`;
-  document.getElementById("park_nighttime_today")?.appendChild(h2);
+  park_nighttime_today.appendChild(h2);
 
 
   const estOptions:any = {
@@ -182,7 +188,7 @@ function setup_park_nighttime(park_data:any,park_index:number)
 
   for(let item of park_data["liveData"])
   {
-    if(item["entityType"]=="SHOW")
+    if(item["entityType"]=="SHOW"&&!item["name"].includes("Meet"))
     {
       if(item["showtimes"]&&item["showtimes"].length>0&&item["showtimes"].length<=3)
       {
@@ -196,10 +202,10 @@ function setup_park_nighttime(park_data:any,park_index:number)
 
         let h3=document.createElement("h3");
         h3.innerHTML=item["name"];
-        document.getElementById("park_nighttime_today")?.appendChild(h3);
+        park_nighttime_today.appendChild(h3);
         
         let ul=document.createElement("ul");
-        document.getElementById("park_nighttime_today")?.appendChild(ul);
+        park_nighttime_today.appendChild(ul);
         for(let i=0;i<item["showtimes"].length;i++)
         {
           const opening_time:Date=new Date(item["showtimes"][i]["startTime"]);
@@ -213,6 +219,19 @@ function setup_park_nighttime(park_data:any,park_index:number)
       }
     }
   }
+}
+function rotate_park()
+{
+  let current_info=document.getElementById("current_info") as HTMLDivElement;
+  current_info.classList.remove("animation");
+  void current_info.offsetWidth;
+
+  current_info.classList.add("animation");
+
+  
+  target_park_index=(target_park_index+1)%4;
+  setup_park_hours(park_arr[target_park_index],target_park_index);
+  setup_park_nighttime(park_arr[target_park_index],target_park_index);
 }
 async function main()
 {
@@ -233,11 +252,13 @@ async function main()
     park_arr.push(park_data);
   }
   console.log(park_arr[0]);
-  setup_park_hours(park_arr[0],0);
-  setup_park_nighttime(park_arr[0],0);
+  
 
   let welcome_heading=document.getElementById("welcome_heading") as HTMLHeadingElement;
   welcome_heading.innerHTML=`Welcome ${family_name} Family`;
+
+  setInterval(rotate_park,5000);
+  rotate_park();
 }
 
 
@@ -248,4 +269,5 @@ const local_park_file_links=["magic_kingdom_sample.json","epcot_sample.json","ho
 const fetching_data=false;
 let park_arr:any=[];
 const family_name="Disney";
+let target_park_index=3;
 main();

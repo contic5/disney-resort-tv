@@ -25,3 +25,16 @@ body
 {
   column-span: 2;
 }
+.animation
+{
+  opacity: 0; /* Start with hidden text */
+  animation: fadeIn 2s forwards; /* Apply the animation */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* From fully transparent */
+  }
+  to {
+    opacity: 1; /* To fully opaque */
+  }
+}
