@@ -216,8 +216,12 @@ function setup_park_nighttime(park_data:any,park_index:number)
         const first_opening_hour:string=first_opening_time.toLocaleTimeString("en",{timeZone:'America/New_York',hour:'numeric',hour12:false});
         console.log(first_opening_hour);
 
+        /*const first_closing_time:Date=new Date(item["showtimes"][0]["endTime"]);
+        const first_runtime=(first_closing_time.getTime()-first_opening_time.getTime())/(1000*60);
+        console.log(first_runtime);*/
+        
         //If the show starts before 7:00, it is likely not a night show.
-        if(parseInt(first_opening_hour)<19)
+        if(parseInt(first_opening_hour)<18)
         {
           continue;
         }
