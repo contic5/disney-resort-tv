@@ -36,6 +36,36 @@ async function get_park_data(park_id:string,index:number=0)
     return api_json_data;
   }
 }
+function get_best_weather_image(short_forecast:string,image_array:string[],folder_name:string)
+{
+  let cur_weather_image="";
+  let max_words:number=0;
+  for(let i=0;i<image_array.length;i++)
+  {
+    if(short_forecast==image_array[i])
+    {
+      cur_weather_image=`${folder_name}/${image_array[i]}.png`;
+      break;
+    }
+
+    const images_name_words:string[]=image_array[i].split("_");
+    let total_matching_words:number=0;
+    for(let images_name_word of images_name_words)
+    {
+      if(short_forecast.includes(images_name_word))
+      {
+        total_matching_words+=1;
+      }
+    }
+
+    if(total_matching_words>max_words)
+    {
+      max_words=total_matching_words;
+      cur_weather_image=`${folder_name}/${image_array[i]}.png`;
+    }
+  }
+  return cur_weather_image;
+}
 //Get weather images from AccuWeather API Weather Icons
 function get_weather_images(weather_data:any)
 {
@@ -43,34 +73,18 @@ function get_weather_images(weather_data:any)
   let weather_images:string[]=[];
   for(let i=0;i<weather_data["properties"]["periods"].length;i++)
   {
-    let cur_weather_image="";
-    let max_words:number=0;
     let short_forecast=weather_data["properties"]["periods"][i]["shortForecast"];
     let short_forecast_lower=short_forecast.toLowerCase();
-    for(let j=0;j<day_images_names.length;j++)
+    let cur_weather_image="";
+    if(i%2==0)
     {
-      if(short_forecast==day_images_names[j])
-      {
-        cur_weather_image="day_weather/"+day_images_names[j]+".png";
-        break;
-      }
-
-      const day_images_name_words:string[]=day_images_names[j].split("_");
-      let total_matching_words:number=0;
-      for(let day_images_name_word of day_images_name_words)
-      {
-        if(short_forecast_lower.includes(day_images_name_word))
-        {
-          total_matching_words+=1;
-        }
-      }
-
-      if(total_matching_words>max_words)
-      {
-        max_words=total_matching_words;
-        cur_weather_image="day_weather/"+day_images_names[j]+".png";
-      }
+      cur_weather_image=get_best_weather_image(short_forecast_lower,day_images_names,"day_weather");
     }
+    else
+    {
+      cur_weather_image=get_best_weather_image(short_forecast_lower,night_images_names,"night_weather");
+    }
+    
     weather_images.push(cur_weather_image);
   }
   console.log(weather_images);
@@ -392,7 +406,8 @@ async function main()
   rotate_park();
 }
 
-const day_images_names=["cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_sunshine","ice","intermittent_clouds","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"]
+const day_images_names=["cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_sunshine","ice","intermittent_clouds","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"];
+const night_images_names=["clear","cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_moonlight","ice","intermittent_clouds","mostly_clear","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"];
 
 let background_img=document.getElementById("background_img") as HTMLDivElement;
 
