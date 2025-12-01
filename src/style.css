@@ -1,7 +1,7 @@
 
 #main
 {
-  background-color: rgba(169, 169, 240, 0.55);
+  background-color: rgba(169, 169, 240, 0.7);
   padding: 10px;
   margin: auto;
   max-width: 800px;
@@ -26,12 +26,12 @@ body
   column-span: 2;
 }
 
-.animation
+.fadein_animation
 {
   opacity: 0; /* Start with hidden text */
   animation: fadeIn 2s forwards; /* Apply the animation */
 }
-.animation_off
+.fadeout_animation
 {
   opacity: 1; /* Start with visible text */
   animation: fadeOut 2s forwards; /* Apply the animation */

@@ -36,8 +36,48 @@ async function get_park_data(park_id:string,index:number=0)
     return api_json_data;
   }
 }
+//Get weather images from AccuWeather API Weather Icons
+function get_weather_images(weather_data:any)
+{
+  console.log(weather_data);
+  let weather_images:string[]=[];
+  for(let i=0;i<weather_data["properties"]["periods"].length;i++)
+  {
+    let cur_weather_image="";
+    let max_words:number=0;
+    let short_forecast=weather_data["properties"]["periods"][i]["shortForecast"];
+    let short_forecast_lower=short_forecast.toLowerCase();
+    for(let j=0;j<day_images_names.length;j++)
+    {
+      if(short_forecast==day_images_names[j])
+      {
+        cur_weather_image="day_weather/"+day_images_names[j]+".png";
+        break;
+      }
+
+      const day_images_name_words:string[]=day_images_names[j].split("_");
+      let total_matching_words:number=0;
+      for(let day_images_name_word of day_images_name_words)
+      {
+        if(short_forecast_lower.includes(day_images_name_word))
+        {
+          total_matching_words+=1;
+        }
+      }
+
+      if(total_matching_words>max_words)
+      {
+        max_words=total_matching_words;
+        cur_weather_image="day_weather/"+day_images_names[j]+".png";
+      }
+    }
+    weather_images.push(cur_weather_image);
+  }
+  console.log(weather_images);
+  return weather_images;
+}
 //Creates weather table
-function setup_weather_table(weather_data:any)
+function setup_weather_table(weather_data:any,weather_images:string[])
 {
   let weather_table_head=document.getElementById("weather_table_head") as HTMLTableElement;
   weather_table_head.innerHTML="";
@@ -81,14 +121,21 @@ function setup_weather_table(weather_data:any)
       let period=weather_data["properties"]["periods"][index];
       let td:HTMLTableCellElement=document.createElement("td");
       td.classList.add("day_info");
-      td.innerHTML=`${period["temperature"]}${period["temperatureUnit"]}<br>${period["shortForecast"]}`;
+
+      let span:HTMLSpanElement=document.createElement("span");
+      td.appendChild(span);
+      span.innerHTML=`${period["temperature"]}${period["temperatureUnit"]}<br>${period["shortForecast"]}`;
+      
+      let weather_img:HTMLImageElement=document.createElement("img");
+      td.appendChild(weather_img);
+      weather_img.src=weather_images[index];
 
       tr.appendChild(td);
     }
     weather_table_body.appendChild(tr);
   }
 }
-function setup_today_weather(weather_data:any)
+function setup_today_weather(weather_data:any,weather_images:string[])
 {
 
   //Create table that only holds today and tonight's weather.
@@ -110,9 +157,16 @@ function setup_today_weather(weather_data:any)
   for(let time_period=0;time_period<2;time_period++)
   {
     let td:HTMLTableCellElement=document.createElement("td");
+    let span:HTMLSpanElement=document.createElement("span");
+    td.appendChild(span);
     let period=weather_data["properties"]["periods"][time_period];
+    span.innerHTML=`${period["temperature"]}${period["temperatureUnit"]}<br>${period["shortForecast"]}`;
+
+    let img:HTMLImageElement=document.createElement("img");
+    td.appendChild(img);
+    img.src=weather_images[time_period];
+
     td.classList.add("day_info");
-    td.innerHTML=`${period["temperature"]}${period["temperatureUnit"]}<br>${period["shortForecast"]}`;
     tr.appendChild(td);
   }
   weather_today_table_body.appendChild(tr);
@@ -172,7 +226,6 @@ function setup_park_hours(park_data:any,park_index:number)
   let time_range=find_park_hours(park_data);
   console.log(time_range);
   console.log(time_range);
-
 
   let hours_h2=document.createElement("h2");
   hours_h2.innerHTML=`${park_names[park_index]} Hours`;
@@ -250,6 +303,10 @@ function setup_park_nighttime(park_data:any,park_index:number)
     }
   }
 }
+function hide_element(element:HTMLElement)
+{
+  element.style.display="none";
+}
 function rotate_park()
 {
   //Flip fading out. If fading out, then hide current information. Otherwise, show new information.
@@ -258,39 +315,43 @@ function rotate_park()
   if(fading_out)
   {
     //Have the current information fade out
-    current_info.classList.remove("animation_off");
-    current_info.classList.remove("animation");
+    current_info.classList.remove("fadein_animation");
+    current_info.classList.remove("fadeout_animation");
     void current_info.offsetWidth;
-    current_info.classList.add("animation_off");
+    current_info.classList.add("fadeout_animation");
+    setTimeout(()=>{hide_element(current_info)},2000);
 
     const image_link=image_links[target_park_index];
     
     //Have the park background fade out
     background_img.style.backgroundImage =`url('${image_link}')`;
-    background_img.classList.remove("animation_off");
-    background_img.classList.remove("animation");
+    background_img.classList.remove("fadein_animation");
+    background_img.classList.remove("fadeout_animation");
     void background_img.offsetWidth;
-    background_img.classList.add("animation_off");
+    background_img.classList.add("fadeout_animation");
   }
   else
   {
     //Change to the next park
     target_park_index=(target_park_index+1)%4;
 
+    //Show current information element
+    current_info.style.display="block";
+
     //Have the current information fade in
-    current_info.classList.remove("animation");
-    current_info.classList.remove("animation_off");
+    current_info.classList.remove("fadein_animation");
+    current_info.classList.remove("fadeout_animation");
     void current_info.offsetWidth;
-    current_info.classList.add("animation");
+    current_info.classList.add("fadein_animation");
 
     const image_link=image_links[target_park_index];
     
     //Have the current background fade in
     background_img.style.backgroundImage =`url('${image_link}')`;
-    background_img.classList.remove("animation");
-    background_img.classList.remove("animation_off");
+    background_img.classList.remove("fadein_animation");
+    background_img.classList.remove("fadeout_animation");
     void background_img.offsetWidth;
-    background_img.classList.add("animation");
+    background_img.classList.add("fadein_animation");
 
     //Display the current park hours
     setup_park_hours(park_arr[target_park_index],target_park_index);
@@ -311,9 +372,10 @@ async function main()
 
   //Get weather data
   let weather_data=await get_weather_data();
+  let weather_images:string[]=get_weather_images(weather_data);
   console.log(weather_data);
-  setup_weather_table(weather_data);
-  setup_today_weather(weather_data);
+  setup_weather_table(weather_data,weather_images);
+  setup_today_weather(weather_data,weather_images);
 
   //Get park data
   for(let i=0;i<4;i++)
@@ -326,11 +388,15 @@ async function main()
   let welcome_heading=document.getElementById("welcome_heading") as HTMLHeadingElement;
   welcome_heading.innerHTML=`Welcome ${family_name} Family`;
 
-  setInterval(rotate_park,5000);
+  setInterval(rotate_park,1000*rotate_park_seconds);
   rotate_park();
 }
 
+const day_images_names=["cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_sunshine","ice","intermittent_clouds","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"]
+
 let background_img=document.getElementById("background_img") as HTMLDivElement;
+
+const rotate_park_seconds=10;
 
 //Names for each park
 const park_names=["Magic Kingdom","Epcot","Disney Hollywood Studios","Animal Kingdom"];
