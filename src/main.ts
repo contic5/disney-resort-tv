@@ -179,7 +179,7 @@ function find_park_hours(park_data:any):string[]
         continue;
       }
 
-      const opening_time:Date=new Date(operating_hours[operating_hours.length-1]["startTime"]);
+      const opening_time:Date=new Date(operating_hours[0]["startTime"]);
       const opening_time_written:string=opening_time.toLocaleString('en-US', estOptions);
       if(opening_time.getSeconds()<earliest_opening_time)
       {
