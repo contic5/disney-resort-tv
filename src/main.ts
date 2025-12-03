@@ -1,45 +1,8 @@
 import './style.css'
 
-import {getData} from "./cache_functions.ts";
+import {get_weather_data,get_park_data} from "./fetch_functions.ts";
+import {rotate_park} from "./shared_general_functions.ts";
 
-async function get_weather_data()
-{
-  //If we are getting live data or stored data
-  if(fetching_data)
-  {
-    //Fetch data from weather api
-    const api_data:Response = await getData('https://api.weather.gov/gridpoints/MLB/29,64/forecast');
-    console.log(api_data);
-    //const api_json_data:any = await api_data.json();
-    return api_data;
-  }
-  else
-  {
-    //Fetch stored weather data
-    const api_data:Response = await getData('sample_weather.json');
-    console.log(api_data);
-    //const api_json_data:any = await api_data.json();
-    return api_data;
-  }
-}
-async function get_park_data(park_id:string,index:number=0)
-{
-  //If we are getting live data or stored data
-  if(fetching_data)
-  {
-    //Fetch data from theme park api
-    const api_data:Response = await getData(`https://api.themeparks.wiki/v1/entity/${park_id}/live`);
-    //const api_json_data:any = await api_data.json();
-    return api_data;
-  }
-  else
-  {
-    //Fetch data from array of stored data
-    const api_data:Response = await getData(local_park_file_links[index]);
-    //const api_json_data:any = await api_data.json();
-    return api_data;
-  }
-}
 function get_best_weather_image(short_forecast:string,image_array:string[],folder_name:string)
 {
   let cur_weather_image="";
@@ -321,62 +284,24 @@ function setup_park_nighttime(park_data:any,park_index:number)
     }
   }
 }
-function hide_element(element:HTMLElement)
-{
-  element.style.display="none";
-}
-function rotate_park()
+async function handle_rotate_park()
 {
   //Flip fading out. If fading out, then hide current information. Otherwise, show new information.
   fading_out=!fading_out;
-  let current_info=document.getElementById("current_info") as HTMLDivElement;
-  if(fading_out)
-  {
-    //Have the current information fade out
-    current_info.classList.remove("fadein_animation");
-    current_info.classList.remove("fadeout_animation");
-    void current_info.offsetWidth;
-    current_info.classList.add("fadeout_animation");
-    setTimeout(()=>{hide_element(current_info)},2000);
 
-    const image_link=image_links[target_park_index];
-    
-    //Have the park background fade out
-    background_img.style.backgroundImage =`url('${image_link}')`;
-    background_img.classList.remove("fadein_animation");
-    background_img.classList.remove("fadeout_animation");
-    void background_img.offsetWidth;
-    background_img.classList.add("fadeout_animation");
-  }
-  else
+  if(!fading_out)
   {
     //Change to the next park
     target_park_index=(target_park_index+1)%4;
-
-    //Show current information element
-    current_info.style.display="block";
-
-    //Have the current information fade in
-    current_info.classList.remove("fadein_animation");
-    current_info.classList.remove("fadeout_animation");
-    void current_info.offsetWidth;
-    current_info.classList.add("fadein_animation");
-
-    const image_link=image_links[target_park_index];
-    
-    //Have the current background fade in
-    background_img.style.backgroundImage =`url('${image_link}')`;
-    background_img.classList.remove("fadein_animation");
-    background_img.classList.remove("fadeout_animation");
-    void background_img.offsetWidth;
-    background_img.classList.add("fadein_animation");
-
-    //Display the current park hours
-    setup_park_hours(park_arr[target_park_index],target_park_index);
-
-    //Display the current park nighttime
-    setup_park_nighttime(park_arr[target_park_index],target_park_index);
   }
+
+  rotate_park(target_park_index,fading_out);
+
+  //Display the current park hours
+  setup_park_hours(park_arr[target_park_index],target_park_index);
+
+  //Display the current park nighttime
+  setup_park_nighttime(park_arr[target_park_index],target_park_index);
 }
 async function main()
 {
@@ -389,7 +314,7 @@ async function main()
   }
 
   //Get weather data
-  let weather_data=await get_weather_data();
+  let weather_data=await get_weather_data(fetching_data);
   let weather_images:string[]=get_weather_images(weather_data);
   console.log(weather_data);
   setup_weather_table(weather_data,weather_images);
@@ -398,7 +323,7 @@ async function main()
   //Get park data
   for(let i=0;i<4;i++)
   {
-    let park_data=await get_park_data(park_keys[i],i);
+    let park_data=await get_park_data(park_keys[i],i,local_park_file_links,fetching_data);
     park_arr.push(park_data);
   }
   
@@ -406,14 +331,12 @@ async function main()
   let welcome_heading=document.getElementById("welcome_heading") as HTMLHeadingElement;
   welcome_heading.innerHTML=`Welcome ${family_name} Family`;
 
-  setInterval(rotate_park,1000*rotate_park_seconds);
-  rotate_park();
+  setInterval(handle_rotate_park,1000*rotate_park_seconds);
+  handle_rotate_park();
 }
 
 const day_images_names=["cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_sunshine","ice","intermittent_clouds","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"];
 const night_images_names=["clear","cloudy","dreary_overcast","flurries","fog","freezing_rain","hazy_moonlight","ice","intermittent_clouds","mostly_clear","mostly_cloudy_with_showers","mostly_cloudy_with_snow","mostly_cloudy_with_thunderstorms","mostly_cloudy","mostly_sunny","partially_sunny_with_showers","partly_sunny_with_flurries","partly_sunny","rain_and_snow","rain","showers","sleet","snow","sunny","thunderstorms"];
-
-let background_img=document.getElementById("background_img") as HTMLDivElement;
 
 const rotate_park_seconds=10;
 
@@ -425,9 +348,6 @@ const park_keys=["75ea578a-adc8-4116-a54d-dccb60765ef9","47f90d2c-e191-4239-a466
 
 //Link to local JSON data
 const local_park_file_links=["magic_kingdom_sample.json","epcot_sample.json","hollywood_studios_sample.json","animal_kingdom_sample.json"];
-
-//Background image srcs
-const image_links=["central-plaza-partners-cinderella-castle-zoom-background.jpg","epcot-spaceship-earth-zoom-background.jpg","hollywood-studios-runaway-railway-zoom-background.jpg","tree-life-animal-kingdom-zoom-background.jpg"];
 
 //Sets whether we are getting real, current data or using stored data. 
 const fetching_data:boolean=false;
