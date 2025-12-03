@@ -1,21 +1,25 @@
 import './style.css'
 
+import {getData} from "./cache_functions.ts";
+
 async function get_weather_data()
 {
   //If we are getting live data or stored data
   if(fetching_data)
   {
     //Fetch data from weather api
-    const api_data:Response = await fetch('https://api.weather.gov/gridpoints/MLB/29,64/forecast');
-    const api_json_data:any = await api_data.json();
-    return api_json_data;
+    const api_data:Response = await getData('https://api.weather.gov/gridpoints/MLB/29,64/forecast');
+    console.log(api_data);
+    //const api_json_data:any = await api_data.json();
+    return api_data;
   }
   else
   {
     //Fetch stored weather data
-    const api_data:Response = await fetch('sample_weather.json');
-    const api_json_data:any = await api_data.json();
-    return api_json_data;
+    const api_data:Response = await getData('sample_weather.json');
+    console.log(api_data);
+    //const api_json_data:any = await api_data.json();
+    return api_data;
   }
 }
 async function get_park_data(park_id:string,index:number=0)
@@ -24,16 +28,16 @@ async function get_park_data(park_id:string,index:number=0)
   if(fetching_data)
   {
     //Fetch data from theme park api
-    const api_data:Response = await fetch(`https://api.themeparks.wiki/v1/entity/${park_id}/live`);
-    const api_json_data:any = await api_data.json();
-    return api_json_data;
+    const api_data:Response = await getData(`https://api.themeparks.wiki/v1/entity/${park_id}/live`);
+    //const api_json_data:any = await api_data.json();
+    return api_data;
   }
   else
   {
     //Fetch data from array of stored data
-    const api_data:Response = await fetch(local_park_file_links[index]);
-    const api_json_data:any = await api_data.json();
-    return api_json_data;
+    const api_data:Response = await getData(local_park_file_links[index]);
+    //const api_json_data:any = await api_data.json();
+    return api_data;
   }
 }
 function get_best_weather_image(short_forecast:string,image_array:string[],folder_name:string)
@@ -281,7 +285,7 @@ function setup_park_nighttime(park_data:any,park_index:number)
       {
         const first_opening_time:Date=new Date(item["showtimes"][0]["startTime"]);
         const first_opening_hour:string=first_opening_time.toLocaleTimeString("en",{timeZone:'America/New_York',hour:'numeric',hour12:false});
-        console.log(first_opening_hour);
+        //console.log(first_opening_hour);
 
         /*const first_closing_time:Date=new Date(item["showtimes"][0]["endTime"]);
         const first_runtime=(first_closing_time.getTime()-first_opening_time.getTime())/(1000*60);
