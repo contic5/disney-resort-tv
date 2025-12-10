@@ -208,15 +208,15 @@ function setup_park_hours(park_data:any,park_index:number)
   console.log(time_range);
   console.log(time_range);
 
-  let hours_h2=document.createElement("h2");
-  hours_h2.innerHTML=`${park_names[park_index]} Hours`;
-  park_hours_today.appendChild(hours_h2);
+  let hours_summary__h2=document.createElement("h2");
+  hours_summary__h2.innerHTML=`${park_names[park_index]} Hours`;
+  park_hours_today.appendChild(hours_summary__h2);
 
   const opening_time:string=time_range[0];
   const closing_time:string=time_range[1];
-  let park_hours_h2:HTMLHeadingElement=document.createElement("h2");
-  park_hours_h2.innerHTML=opening_time+" - "+closing_time;
-  park_hours_today.appendChild(park_hours_h2);
+  let park_hours_h3:HTMLHeadingElement=document.createElement("h3");
+  park_hours_h3.innerHTML=opening_time+" - "+closing_time;
+  park_hours_today.appendChild(park_hours_h3);
 }
 
 //Find all nighttime events for a park
