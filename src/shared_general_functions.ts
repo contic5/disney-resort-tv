@@ -9,11 +9,14 @@ export function rotate_park(target_park_index:number,fading_out:boolean)
   if(fading_out)
   {
     //Have the current information fade out
-    current_info.classList.remove("fadein_animation");
-    current_info.classList.remove("fadeout_animation");
-    void current_info.offsetWidth;
-    current_info.classList.add("fadeout_animation");
-    setTimeout(()=>{hide_element(current_info)},2000);
+    if(current_info)
+    {
+      current_info.classList.remove("fadein_animation");
+      current_info.classList.remove("fadeout_animation");
+      void current_info.offsetWidth;
+      current_info.classList.add("fadeout_animation");
+      setTimeout(()=>{hide_element(current_info)},2000);
+    }
 
     const image_link=image_links[target_park_index];
     
@@ -26,14 +29,19 @@ export function rotate_park(target_park_index:number,fading_out:boolean)
   }
   else
   {
-    //Show current information element
-    current_info.style.display="block";
 
-    //Have the current information fade in
-    current_info.classList.remove("fadein_animation");
-    current_info.classList.remove("fadeout_animation");
-    void current_info.offsetWidth;
-    current_info.classList.add("fadein_animation");
+    if(current_info)
+    {
+      //Show current information element
+      current_info.style.display="block";
+
+      
+      //Have the current information fade in
+      current_info.classList.remove("fadein_animation");
+      current_info.classList.remove("fadeout_animation");
+      void current_info.offsetWidth;
+      current_info.classList.add("fadein_animation");
+    }
 
     const image_link=image_links[target_park_index];
     

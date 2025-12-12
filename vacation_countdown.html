@@ -14,8 +14,15 @@
 
     <div id="main">
     <h1>Disney Resort TV</h1>
+    <label for="vacation_day">Vacation Day</label>
+    <input id="vacation_day" type="date">
+
     <h1>Vacation Countdown</h1>
-    
+    <h2 id="days_left"></h2>
+    <h2 id="hours_left"></h2>
+    <h2 id="minutes_left"></h2>
+    <h2 id="seconds_left"></h2>
+
     <div id="welcome_div">
     <h1 id="welcome_heading">Welcome TEST</h1>
     </div>
@@ -45,6 +52,10 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="src/vacation_countdown.ts"></script>
+    <script src="src/vacation_countdown.ts" type="module"></script>
+    <script type="module">
+    import {update_vacation_day} from "/src/vacation_countdown.ts";
+    document.getElementById("vacation_day").onchange=update_vacation_day;
+    </script>
   </body>
 </html>
