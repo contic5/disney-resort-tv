@@ -54,13 +54,25 @@ function calculate_time_difference()
     const minutes_left=Math.floor(milliseconds_between/(60*1000));
     milliseconds_between-=minutes_left*(60*1000);
 
+    let minutes_left_written=minutes_left.toString();
+    if(minutes_left_written.length<2)
+    {
+        minutes_left_written="0"+minutes_left_written;
+    }
+
     const seconds_left=Math.floor(milliseconds_between/(1000));
+    let seconds_left_written=seconds_left.toString();
+    if(seconds_left_written.length<2)
+    {
+        seconds_left_written="0"+seconds_left_written;
+    }
+
     milliseconds_between-=seconds_left*(1000);
 
     document.getElementById("days_left")!.innerHTML=`${days_left} Days`;
-    document.getElementById("hours_left")!.innerHTML=`${hours_left} Hours`;
-    document.getElementById("minutes_left")!.innerHTML=`${minutes_left} Minutes`;
-    document.getElementById("seconds_left")!.innerHTML=`${seconds_left} Seconds`;
+    document.getElementById("hours_left")!.innerHTML=`${hours_left}`;
+    document.getElementById("minutes_left")!.innerHTML=`${minutes_left_written}`;
+    document.getElementById("seconds_left")!.innerHTML=`${seconds_left_written}`;
 }
 export function update_vacation_day()
 {

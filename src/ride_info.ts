@@ -1,4 +1,4 @@
-import {rotate_park} from "./shared_general_functions";
+import {handle_fade_element,hide_element,rotate_park} from "./shared_general_functions";
 import {get_park_data} from "./fetch_functions";
 import './style.css'
 
@@ -34,13 +34,11 @@ function display_ride_info()
   let ride_table_body=document.getElementById("ride_table_body") as HTMLTableElement;
   ride_table_body.innerHTML="";
   console.log(park_arr[target_park_index]);
-  for(let i=0;i<park_arr[target_park_index]["liveData"].length;i++)
+
+  const end_ride_index=Math.min(ride_index+10,park_arr[target_park_index]["liveData"].length)
+  for(let i=ride_index;i<end_ride_index;i++)
   {
     let ride_data=park_arr[target_park_index]["liveData"][i];
-    if(ride_data["entityType"]!="ATTRACTION")
-    {
-      continue;
-    }
     
     let tr=document.createElement("tr") as HTMLTableRowElement;
     ride_table_body?.appendChild(tr);
@@ -61,7 +59,7 @@ function display_ride_info()
     h4.innerHTML=`${ride_data["Wait"]} Minutes`;
   }
 }
-async function handle_rotate_park()
+function handle_rotate_park()
 {
   //Flip fading out. If fading out, then hide current information. Otherwise, show new information.
   fading_out=!fading_out;
@@ -70,11 +68,32 @@ async function handle_rotate_park()
   {
     //Change to the next park
     target_park_index=(target_park_index+1)%4;
+    handle_rotate_rides();
   }
-
-  display_ride_info();
-
+  
   rotate_park(target_park_index,fading_out);
+}
+function rotate_rides()
+{
+  const ride_table=document.getElementById("ride_table") as HTMLTableElement;
+  //const current_info=document.getElementById("current_info") as HTMLDivElement;
+  setTimeout(()=>{handle_fade_element(ride_table,false)},1);
+  setTimeout(()=>{handle_fade_element(ride_table,true)},3000);
+  setTimeout(()=>{hide_element(ride_table)},5000);
+}
+function handle_rotate_rides()
+{
+  ride_index+=10;
+  if(ride_index>=park_arr[target_park_index]["liveData"].length)
+  {
+    ride_index=-10;
+    handle_rotate_park();
+  }
+  else
+  {
+      rotate_rides();
+      display_ride_info();
+  }
 }
 
 async function main()
@@ -99,7 +118,7 @@ async function main()
     let welcome_heading=document.getElementById("welcome_heading") as HTMLHeadingElement;
     welcome_heading.innerHTML=`Welcome ${family_name} Family`;
 
-    setInterval(handle_rotate_park,1000*rotate_park_seconds);
+    setInterval(handle_rotate_rides,1000*rotate_park_seconds);
     handle_rotate_park();
 }
 
@@ -125,5 +144,8 @@ let fading_out:boolean=true;
 
 //Start at the last part and then rotate
 let target_park_index=3;
+
+//Start at first ride and then rotate
+let ride_index=0;
 
 main()
