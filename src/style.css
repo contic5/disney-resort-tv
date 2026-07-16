@@ -59,6 +59,10 @@ body
   background-attachment: scroll; /* default: background moves with page */
 
 }
+#countdown_table
+{
+  font-size: 72px;
+}
 
 @keyframes fadeIn {
   from {

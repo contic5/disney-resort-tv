@@ -1,26 +1,16 @@
-export function hide_element(element:HTMLElement)
+function hide_element(element:HTMLElement)
 {
-  console.log(`Hiding ${element.id}`);
   element.style.display="none";
 }
 export function handle_fade_element(element:HTMLElement,fading_out:boolean)
 {
   if(fading_out)
   {
-      console.log(`Fading Out ${element.id}`);
-      element.classList.remove("fadein_animation");
-      element.classList.remove("fadeout_animation");
-      void element.offsetWidth;
-      element.classList.add("fadeout_animation");
+
   }
   else
   {
-      console.log(`Fading In ${element.id}`);
-      element.classList.remove("fadein_animation");
-      element.classList.remove("fadeout_animation");
-      void element.offsetWidth;
-      element.classList.add("fadein_animation");
-      element.style.display="block";
+
   }
 }
 export function rotate_park(target_park_index:number,fading_out:boolean)
@@ -32,7 +22,10 @@ export function rotate_park(target_park_index:number,fading_out:boolean)
     //Have the current information fade out
     if(current_info)
     {
-      handle_fade_element(current_info,true);
+      current_info.classList.remove("fadein_animation");
+      current_info.classList.remove("fadeout_animation");
+      void current_info.offsetWidth;
+      current_info.classList.add("fadeout_animation");
       setTimeout(()=>{hide_element(current_info)},2000);
     }
 
@@ -40,7 +33,10 @@ export function rotate_park(target_park_index:number,fading_out:boolean)
     //Have the park background fade out
     background_img.style.backgroundImage =`url('${image_link}')`;
     
-    handle_fade_element(background_img,true);
+    background_img.classList.remove("fadein_animation");
+    background_img.classList.remove("fadeout_animation");
+    void background_img.offsetWidth;
+    background_img.classList.add("fadeout_animation");
   }
   else
   {
@@ -49,15 +45,23 @@ export function rotate_park(target_park_index:number,fading_out:boolean)
     {
       //Show current information element
       current_info.style.display="block";
-      handle_fade_element(current_info,false);
+
+      
+      //Have the current information fade in
+      current_info.classList.remove("fadein_animation");
+      current_info.classList.remove("fadeout_animation");
+      void current_info.offsetWidth;
+      current_info.classList.add("fadein_animation");
     }
 
     const image_link=image_links[target_park_index];
     
     //Have the current background fade in
     background_img.style.backgroundImage =`url('${image_link}')`;
-    
-    handle_fade_element(background_img,false);
+    background_img.classList.remove("fadein_animation");
+    background_img.classList.remove("fadeout_animation");
+    void background_img.offsetWidth;
+    background_img.classList.add("fadein_animation");
   }
 }
 
