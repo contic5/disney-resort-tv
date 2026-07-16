@@ -84,7 +84,7 @@ function setup_weather_table(weather_data:any,weather_images:string[])
 
   //Create weather table cells for each time period
   const time_period_names=["Today","Tonight"];
-  //Periods are morning, then night for each day.
+  //Periods are morning, then night for each day. Make a row for morning and for night.
   for(let time_period=0;time_period<2;time_period++)
   {
     tr=document.createElement("tr");
@@ -95,6 +95,7 @@ function setup_weather_table(weather_data:any,weather_images:string[])
     th.scope="row";
     tr.appendChild(th);
 
+    //Make a column for each day
     for(let day=0;day<7;day++)
     {
       //First row should be morning, second row should be night.
@@ -199,6 +200,8 @@ function find_park_hours(park_data:any):string[]
 
   return [earliest_opening_time_written,latest_closing_time_written];
 }
+
+//Set up the opening and closing hours for display.
 function setup_park_hours(park_data:any,park_index:number)
 {
   let park_hours_today=document.getElementById("park_hours_today") as HTMLDivElement;
@@ -350,7 +353,7 @@ const park_keys=["75ea578a-adc8-4116-a54d-dccb60765ef9","47f90d2c-e191-4239-a466
 const local_park_file_links=["magic_kingdom_sample.json","epcot_sample.json","hollywood_studios_sample.json","animal_kingdom_sample.json"];
 
 //Sets whether we are getting real, current data or using stored data. 
-const fetching_data:boolean=false;
+const fetching_data:boolean=true;
 let park_arr:any=[];
 
 //Family name to welcome
